@@ -1,54 +1,97 @@
-# React + TypeScript + Vite
+Ozzepay - The Consolidated Zimbabwean Wallet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Overview
 
-## Expanding the ESLint configuration
+Ozzepay is an all-in-one digital wallet designed to simplify payments, transfers, and financial management in Zimbabwe. It consolidates multiple payment methods, including mobile money, bank accounts, and cryptocurrencies, into a single, user-friendly platform.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Multi-Currency Support: ZWL, USD, and selected cryptocurrencies.
+
+Mobile Money Integration: Supports EcoCash, OneMoney, and TeleCash.
+
+Bank Connectivity: Link and transact directly with local banks.
+
+Bill Payments: Pay utilities, airtime, and subscriptions with ease.
+
+P2P Transfers: Instant and secure peer-to-peer transactions.
+
+Merchant Payments: Scan QR codes for seamless shopping.
+
+Security & Compliance: End-to-end encryption and KYC verification.
+
+Installation
+
+Prerequisites
+
+Node.js & npm (for frontend)
+
+Python/Django (for backend)
+
+PostgreSQL (for database)
+
+Setup Instructions
+
 ```
+# Clone the repository
+git clone https://github.com/yourusername/ozzepay.git
+cd ozzepay
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# Backend setup
+cd backend
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Frontend setup
+cd frontend
+npm install
+npm start```
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Usage
+
+Sign Up & Verify: Register and complete the KYC verification process.
+
+Add Funds: Link your bank, mobile wallet, or crypto account.
+
+Make Payments: Send money, pay bills, or shop using Ozzepay.
+
+Track Transactions: View real-time transaction history.
+
+API Documentation
+
+Ozzepay provides a RESTful API for developers to integrate wallet functionalities into their applications.
+
+API Documentation
+
+Contributing
+
+We welcome contributions! Follow these steps:
+
+Fork the repository.
+
+Create a feature branch (git checkout -b feature-xyz).
+
+Commit your changes (git commit -m 'Add feature XYZ').
+
+Push to the branch (git push origin feature-xyz).
+
+Open a pull request.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact & Support
+
+Website: www.ozzepay.com
+
+Support Email: support@ozzepay.com
+
+Telegram: Ozzepay Community
+
+Twitter: @Ozzepay
+
+Powering seamless payments across Zimbabwe 🇿🇼🚀
