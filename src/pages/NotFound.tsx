@@ -1,7 +1,7 @@
 
 const NotFound = () => {
     return (
-        <p>Hey nothing here</p>
+        <p>404 Page</p>
     );
 }
 
