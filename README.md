@@ -1,12 +1,12 @@
-Ozzepay - The Consolidated Zimbabwean Wallet
+# Ozzepay - The Consolidated Zimbabwean Wallet
 
 
 
-Overview
+## Overview
 
 Ozzepay is an all-in-one digital wallet designed to simplify payments, transfers, and financial management in Zimbabwe. It consolidates multiple payment methods, including mobile money, bank accounts, and cryptocurrencies, into a single, user-friendly platform.
 
-Features
+### Features
 
 Multi-Currency Support: ZWL, USD, and selected cryptocurrencies.
 
@@ -60,11 +60,11 @@ Make Payments: Send money, pay bills, or shop using Ozzepay.
 
 Track Transactions: View real-time transaction history.
 
-API Documentation
+### API Documentation
 
 Ozzepay provides a RESTful API for developers to integrate wallet functionalities into their applications.
 
-API Documentation
+### API Documentation
 
 Contributing
 
