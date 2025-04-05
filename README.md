@@ -2,7 +2,7 @@
 
 
 
-## Overview
+## Overviews
 
 Ozzepay is an all-in-one digital wallet designed to simplify payments, transfers, and financial management in Zimbabwe. It consolidates multiple payment methods, including mobile money, bank accounts, and cryptocurrencies, into a single, user-friendly platform.
 
