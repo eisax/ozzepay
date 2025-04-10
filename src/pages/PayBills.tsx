@@ -40,6 +40,8 @@ const PayBills = () => {
                             <span>DStv</span>
                         </Button>
                     </div>
+
+                    <form onSubmit={handlePayment} className="space-y-4">
                 </CardContent>
             </Card>
         </div>
