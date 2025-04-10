@@ -40,7 +40,11 @@ const Receive = () => {
 
                     <div className="space-y-2">
                         <p className="text-sm font-medium">Wallet ID</p>
-                        <div className="flex items-center gap-2"></div>
+                        <div className="flex items-center gap-2">
+                            <div className="border rounded p-2 flex-1 bg-muted/30">
+                                <code className="text-sm">wallet-id-12345</code>
+                            </div>
+                        </div>
                     </div>
                 </CardContent>
             </Card>
