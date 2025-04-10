@@ -12,6 +12,7 @@ import viteLogo from '/vite.svg';
 import { useState } from 'react';
 import './App.css';
 import { AppLayout } from "./components/layout/AppLayout";
+import Index from "./pages/Index";
 
 
 
