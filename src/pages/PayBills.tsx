@@ -19,7 +19,8 @@ const PayBills = () => {
             <Card className="max-w-3xl mx-auto">
 
                 <CardHeader>
-                <CardTitle>Pay Your Bills</CardTitle>
+                    <CardTitle>Pay Your Bills</CardTitle>
+                    <CardDescription>Select a service provider and make your payment</CardDescription>
                 </CardHeader>
             </Card>
         </div>
