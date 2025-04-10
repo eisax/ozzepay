@@ -38,7 +38,9 @@ const Receive = () => {
                         </p>
                     </div>
 
-                    <div className="space-y-2"></div>
+                    <div className="space-y-2">
+                        <p className="text-sm font-medium">Wallet ID</p>
+                    </div>
                 </CardContent>
             </Card>
         </div>
