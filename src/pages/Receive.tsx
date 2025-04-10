@@ -5,7 +5,7 @@ import {
     CardDescription,
     CardHeader,
     CardTitle,
-  } from "@/components/ui/card";
+} from "@/components/ui/card";
 
 const Receive = () => {
     const { toast } = useToast();
@@ -23,9 +23,9 @@ const Receive = () => {
             <h1 className="text-2xl font-bold">Receive Money</h1>
 
             <Card className="max-w-md mx-auto">
-            <CardHeader>
-            <CardTitle>Receive Money</CardTitle>
-            </CardHeader>
+                <CardHeader>
+                    <CardTitle>Receive Money</CardTitle>
+                </CardHeader>
             </Card>
         </div>
     );
