@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound";
 import { AuthProvider } from "./context/AuthContext";
 import { ProtectedRoute } from "./components/auth/ProtectedRoute";
 import Receive from "./pages/Receive";
+import PayBills from "./pages/PayBills";
 
 const queryClient = new QueryClient();
 
