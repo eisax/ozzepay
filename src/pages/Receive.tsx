@@ -27,6 +27,7 @@ const Receive = () => {
                     <CardTitle>Receive Money</CardTitle>
                     <CardDescription>Share your details to receive money</CardDescription>
                 </CardHeader>
+                <CardContent className="space-y-6"></CardContent>
             </Card>
         </div>
     );
