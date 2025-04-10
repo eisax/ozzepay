@@ -22,7 +22,9 @@ const PayBills = () => {
                     <CardTitle>Pay Your Bills</CardTitle>
                     <CardDescription>Select a service provider and make your payment</CardDescription>
                 </CardHeader>
-                <CardContent></CardContent>
+                <CardContent>
+                <div className="grid grid-cols-3 gap-3 mb-6"></div>
+                </CardContent>
             </Card>
         </div>
     );
