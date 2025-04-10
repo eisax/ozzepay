@@ -10,5 +10,7 @@ const PayBills = () => {
             description: "Your bill payment is being processed",
         });
     };
+
+    return ();
 }
 export default PayBills;
