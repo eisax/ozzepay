@@ -14,6 +14,7 @@ import './App.css';
 import { AppLayout } from "./components/layout/AppLayout";
 import Index from "./pages/Index";
 import Transactions from "./pages/Transactions";
+import Send from "./pages/Send";
 
 
 
