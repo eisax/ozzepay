@@ -42,7 +42,12 @@ const PayBills = () => {
                     </div>
 
                     <form onSubmit={handlePayment} className="space-y-4">
-                        <div className="grid grid-cols-2 gap-4"></div>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="space-y-2">
+                                <Label htmlFor="meter">Meter/Account Number</Label>
+                                <Input id="meter" placeholder="Enter meter or account number" />
+                            </div>
+                        </div>
                     </form>
                 </CardContent>
             </Card>
