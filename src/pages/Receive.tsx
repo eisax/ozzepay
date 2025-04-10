@@ -49,6 +49,9 @@ const Receive = () => {
                                 Copy
                             </Button>
                         </div>
+                        <p className="text-xs text-muted-foreground">
+                            Share this Wallet ID with others to receive money
+                        </p>
                     </div>
                 </CardContent>
             </Card>
