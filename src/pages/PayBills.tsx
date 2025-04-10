@@ -49,6 +49,20 @@ const PayBills = () => {
                                 <Label htmlFor="meter">Meter/Account Number</Label>
                                 <Input id="meter" placeholder="Enter meter or account number" />
                             </div>
+
+                            <div className="space-y-2">
+                                <Label htmlFor="provider">Service Provider</Label>
+                                <Select>
+                                    <SelectTrigger id="provider">
+                                        <SelectValue placeholder="Select provider" />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                        <SelectItem value="zesa">ZESA Electricity</SelectItem>
+                                        <SelectItem value="city">Harare City Council</SelectItem>
+                                        <SelectItem value="dstv">DStv</SelectItem>
+                                    </SelectContent>
+                                </Select>
+                            </div>
                         </div>
                     </form>
                 </CardContent>
