@@ -16,7 +16,10 @@ const PayBills = () => {
         <div className="space-y-6">
             <h1 className="text-2xl font-bold">Pay Bills</h1>
 
-            <Card className="max-w-3xl mx-auto"></Card>
+            <Card className="max-w-3xl mx-auto">
+
+            <CardHeader></CardHeader>
+            </Card>
         </div>
     );
 }
