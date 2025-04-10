@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Zap, Home, Tv } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { 
-    Select, 
-    SelectContent, 
-    SelectItem, 
-    SelectTrigger, 
-    SelectValue 
-  } from "@/components/ui/select";
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue
+} from "@/components/ui/select";
 
 const PayBills = () => {
     const { toast } = useToast();
@@ -73,12 +73,12 @@ const PayBills = () => {
                         </div>
 
                         <div className="space-y-2">
-              <Label htmlFor="amount">Amount (USD)</Label>
-              <div className="relative">
-                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">$</span>
-                <Input id="amount" type="number" className="pl-7" placeholder="0.00" />
-              </div>
-            </div>
+                            <Label htmlFor="amount">Amount (USD)</Label>
+                            <div className="relative">
+                                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">$</span>
+                                <Input id="amount" type="number" className="pl-7" placeholder="0.00" />
+                            </div>
+                        </div>
                     </form>
                 </CardContent>
             </Card>
