@@ -28,7 +28,7 @@ const Receive = () => {
                     <CardDescription>Share your details to receive money</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-6">
-                <div className="flex flex-col items-center justify-center p-6 border rounded-lg bg-muted/50">
+                <div className="flex flex-col items-center justify-center p-6 border rounded-lg bg-muted/50"></div>
                 </CardContent>
             </Card>
         </div>
