@@ -1,22 +1,20 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ProtectedRoute } from "./components/auth/ProtectedRoute";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { LoginScreen } from './components/auth/LoginScreen';
-import { AuthProvider } from './context/AuthContext';
-import { Toaster } from './components/ui/toaster';
-import reactLogo from './assets/react.svg';
-import NotFound from "./pages/NotFound";
-import viteLogo from '/vite.svg';
-import { useState } from 'react';
-import './App.css';
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AppLayout } from "./components/layout/AppLayout";
 import Index from "./pages/Index";
 import Transactions from "./pages/Transactions";
 import Send from "./pages/Send";
-
-
+import { LoginScreen } from "./components/auth/LoginScreen";
+import NotFound from "./pages/NotFound";
+import { AuthProvider } from "./context/AuthContext";
+import { ProtectedRoute } from "./components/auth/ProtectedRoute";
+import Receive from "./pages/Receive";
+import PayBills from "./pages/PayBills";
+import Airtime from "./pages/Airtime";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +35,9 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/transactions" element={<Transactions />} />
               <Route path="/send" element={<Send />} />
+              <Route path="/receive" element={<Receive />} />
+              <Route path="/pay-bills" element={<PayBills />} />
+              <Route path="/airtime" element={<Airtime />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
@@ -46,4 +47,4 @@ const App = () => (
   </QueryClientProvider>
 );
 
-export default App
+export default App;
