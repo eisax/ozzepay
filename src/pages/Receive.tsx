@@ -23,7 +23,9 @@ const Receive = () => {
             <h1 className="text-2xl font-bold">Receive Money</h1>
 
             <Card className="max-w-md mx-auto">
-            <CardHeader></CardHeader>
+            <CardHeader>
+            <CardTitle>Receive Money</CardTitle>
+            </CardHeader>
             </Card>
         </div>
     );
