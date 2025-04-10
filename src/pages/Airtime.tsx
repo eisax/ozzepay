@@ -14,6 +14,8 @@ const Airtime = () => {
     return (
         <div className="space-y-6">
             <h1 className="text-2xl font-bold">Buy Airtime</h1>
+
+            <Card className="max-w-md mx-auto"></Card>
         </div>
     );
 }
