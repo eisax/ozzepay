@@ -69,7 +69,7 @@ const Airtime = () => {
                             </div>
                         </div>
 
-                        
+                        <Button type="submit" className="w-full">Purchase</Button>
                     </form>
 
 
