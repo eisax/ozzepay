@@ -31,6 +31,8 @@ const Airtime = () => {
                             <span>Econet</span>
                         </Button>
                     </div>
+
+                    <form onSubmit={handlePurchase} className="space-y-4"></form>
                 </CardContent>
             </Card>
         </div>
