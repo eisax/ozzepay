@@ -1,7 +1,7 @@
 import { useToast } from "@/hooks/use-toast";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Zap } from "lucide-react";
+import { Zap, Home } from "lucide-react";
 
 const PayBills = () => {
     const { toast } = useToast();
@@ -31,9 +31,9 @@ const PayBills = () => {
                             <span>ZESA Electricity</span>
                         </Button>
                         <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
-              <Home className="h-6 w-6 text-blue-500" />
-              <span>City Council</span>
-            </Button>
+                            <Home className="h-6 w-6 text-blue-500" />
+                            <span>City Council</span>
+                        </Button>
                     </div>
                 </CardContent>
             </Card>
