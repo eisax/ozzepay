@@ -32,7 +32,12 @@ const Airtime = () => {
                         </Button>
                     </div>
 
-                    <form onSubmit={handlePurchase} className="space-y-4"></form>
+                    <form onSubmit={handlePurchase} className="space-y-4">
+                        <div className="space-y-2">
+                            <Label htmlFor="phone">Phone Number</Label>
+                            <Input id="phone" placeholder="Enter phone number" />
+                        </div>
+                    </form>
                 </CardContent>
             </Card>
         </div>
