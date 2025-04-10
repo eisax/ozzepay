@@ -30,7 +30,10 @@ const PayBills = () => {
                             <Zap className="h-6 w-6 text-amber-500" />
                             <span>ZESA Electricity</span>
                         </Button>
-                        
+                        <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
+              <Home className="h-6 w-6 text-blue-500" />
+              <span>City Council</span>
+            </Button>
                     </div>
                 </CardContent>
             </Card>
