@@ -29,6 +29,11 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/login" element={<LoginScreen />} />
+            <Route element={
+              <ProtectedRoute>
+                <AppLayout />
+              </ProtectedRoute>
+            }></Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
