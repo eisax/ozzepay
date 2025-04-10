@@ -1,1 +1,3 @@
-const Airtime = () => {}
+const Airtime = () => { }
+
+export default Airtime;
