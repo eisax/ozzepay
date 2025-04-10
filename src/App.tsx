@@ -14,6 +14,7 @@ import { AuthProvider } from "./context/AuthContext";
 import { ProtectedRoute } from "./components/auth/ProtectedRoute";
 import Receive from "./pages/Receive";
 import PayBills from "./pages/PayBills";
+import Airtime from "./pages/Airtime";
 
 const queryClient = new QueryClient();
 
