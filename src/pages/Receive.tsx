@@ -6,6 +6,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
+import { QrCode } from "lucide-react";
 
 const Receive = () => {
     const { toast } = useToast();
