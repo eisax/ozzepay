@@ -30,7 +30,9 @@ const App = () => (
               <ProtectedRoute>
                 <AppLayout />
               </ProtectedRoute>
-            }></Route>
+            }>
+              <Route path="/" element={<Index />} />
+            </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
