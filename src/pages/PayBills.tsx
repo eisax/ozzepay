@@ -23,7 +23,12 @@ const PayBills = () => {
                     <CardDescription>Select a service provider and make your payment</CardDescription>
                 </CardHeader>
                 <CardContent>
-                <div className="grid grid-cols-3 gap-3 mb-6"></div>
+                    <div className="grid grid-cols-3 gap-3 mb-6">
+                        <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
+                            <Zap className="h-6 w-6 text-amber-500" />
+                            <span>ZESA Electricity</span>
+                        </Button>
+                    </div>
                 </CardContent>
             </Card>
         </div>
