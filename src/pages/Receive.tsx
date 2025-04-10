@@ -25,6 +25,7 @@ const Receive = () => {
             <Card className="max-w-md mx-auto">
                 <CardHeader>
                     <CardTitle>Receive Money</CardTitle>
+                    <CardDescription>Share your details to receive money</CardDescription>
                 </CardHeader>
             </Card>
         </div>
