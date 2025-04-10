@@ -1,1 +1,3 @@
-const Receive = () => {
+const Receive = () => {}
+
+export default Receive;
