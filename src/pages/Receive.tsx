@@ -10,6 +10,8 @@ const Receive = () => {
             description: "You can now share this with the sender",
         });
     };
+
+    return ();
 }
 
 export default Receive;
