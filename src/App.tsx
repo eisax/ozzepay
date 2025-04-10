@@ -8,20 +8,11 @@ import { AppLayout } from "./components/layout/AppLayout";
 import Index from "./pages/Index";
 import Transactions from "./pages/Transactions";
 import Send from "./pages/Send";
-import Profile from "./pages/Profile";
-import Payment from "./pages/Payment";
-import Analytics from "./pages/Analytics";
-import Settings from "./pages/Settings";
 import { LoginScreen } from "./components/auth/LoginScreen";
 import NotFound from "./pages/NotFound";
 import { AuthProvider } from "./context/AuthContext";
 import { ProtectedRoute } from "./components/auth/ProtectedRoute";
 import Receive from "./pages/Receive";
-import PayBills from "./pages/PayBills";
-import Airtime from "./pages/Airtime";
-import Internet from "./pages/Internet";
-import Electricity from "./pages/Electricity";
-import Request from "./pages/Request";
 
 const queryClient = new QueryClient();
 
@@ -43,15 +34,6 @@ const App = () => (
               <Route path="/transactions" element={<Transactions />} />
               <Route path="/send" element={<Send />} />
               <Route path="/receive" element={<Receive />} />
-              <Route path="/pay-bills" element={<PayBills />} />
-              <Route path="/airtime" element={<Airtime />} />
-              <Route path="/internet" element={<Internet />} />
-              <Route path="/electricity" element={<Electricity />} />
-              <Route path="/request" element={<Request />} />
-              <Route path="/profile" element={<Profile />} />
-              <Route path="/payment" element={<Payment />} />
-              <Route path="/analytics" element={<Analytics />} />
-              <Route path="/settings" element={<Settings />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
