@@ -16,7 +16,12 @@ const Airtime = () => {
         <div className="space-y-6">
             <h1 className="text-2xl font-bold">Buy Airtime</h1>
 
-            <Card className="max-w-md mx-auto"></Card>
+            <Card className="max-w-md mx-auto">
+                <CardHeader>
+                    <CardTitle>Mobile Airtime & Bundles</CardTitle>
+                    <CardDescription>Purchase airtime or data bundles</CardDescription>
+                </CardHeader>
+            </Card>
         </div>
     );
 }
