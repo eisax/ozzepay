@@ -23,7 +23,7 @@ const Airtime = () => {
                 </CardHeader>
 
                 <CardContent>
-                <div className="grid grid-cols-3 gap-3 mb-6">
+                <div className="grid grid-cols-3 gap-3 mb-6"></div>
                 </CardContent>
             </Card>
         </div>
