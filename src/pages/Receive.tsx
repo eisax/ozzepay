@@ -33,6 +33,10 @@ const Receive = () => {
                         <div className="w-48 h-48 bg-white flex items-center justify-center rounded-lg mb-4">
                             <QrCode size={180} className="text-primary" />
                         </div>
+
+                        <p className="text-sm text-center text-muted-foreground">
+              Scan this QR code to send money to this wallet
+            </p>
                     </div>
                 </CardContent>
             </Card>
