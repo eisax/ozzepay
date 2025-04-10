@@ -23,7 +23,12 @@ const Airtime = () => {
                 </CardHeader>
 
                 <CardContent>
-                <div className="grid grid-cols-3 gap-3 mb-6"></div>
+                    <div className="grid grid-cols-3 gap-3 mb-6">
+                        <Button variant="outline" className="h-20 flex flex-col items-center justify-center gap-2">
+                            <Smartphone className="h-6 w-6 text-green-500" />
+                            <span>Econet</span>
+                        </Button>
+                    </div>
                 </CardContent>
             </Card>
         </div>
