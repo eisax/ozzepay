@@ -13,6 +13,8 @@ import { useState } from 'react';
 import './App.css';
 import { AppLayout } from "./components/layout/AppLayout";
 import Index from "./pages/Index";
+import Transactions from "./pages/Transactions";
+import Send from "./pages/Send";
 
 
 
@@ -34,6 +36,7 @@ const App = () => (
             }>
               <Route path="/" element={<Index />} />
               <Route path="/transactions" element={<Transactions />} />
+              <Route path="/send" element={<Send />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
