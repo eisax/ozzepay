@@ -39,6 +39,11 @@ const Airtime = () => {
                             <Smartphone className="h-6 w-6 text-green-500" />
                             <span>Econet</span>
                         </Button>
+
+                        <Button variant="outline" className="h-20 flex flex-col items-center justify-center gap-2">
+                            <Smartphone className="h-6 w-6 text-red-500" />
+                            <span>NetOne</span>
+                        </Button>
                     </div>
 
                     <form onSubmit={handlePurchase} className="space-y-4">
