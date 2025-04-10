@@ -7,6 +7,7 @@ import {
     CardTitle,
 } from "@/components/ui/card";
 import { QrCode } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Receive = () => {
     const { toast } = useToast();
@@ -45,8 +46,8 @@ const Receive = () => {
                                 <code className="text-sm">wallet-id-12345</code>
                             </div>
                             <Button variant="outline" size="sm" onClick={copyToClipboard}>
-                Copy
-              </Button>
+                                Copy
+                            </Button>
                         </div>
                     </div>
                 </CardContent>
