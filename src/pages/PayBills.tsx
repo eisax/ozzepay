@@ -1,7 +1,7 @@
 import { useToast } from "@/hooks/use-toast";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Zap, Home,Tv } from "lucide-react";
+import { Zap, Home, Tv } from "lucide-react";
 
 const PayBills = () => {
     const { toast } = useToast();
@@ -41,7 +41,9 @@ const PayBills = () => {
                         </Button>
                     </div>
 
-                    <form onSubmit={handlePayment} className="space-y-4"></form>
+                    <form onSubmit={handlePayment} className="space-y-4">
+                        <div className="grid grid-cols-2 gap-4"></div>
+                    </form>
                 </CardContent>
             </Card>
         </div>
