@@ -44,6 +44,9 @@ const Receive = () => {
                             <div className="border rounded p-2 flex-1 bg-muted/30">
                                 <code className="text-sm">wallet-id-12345</code>
                             </div>
+                            <Button variant="outline" size="sm" onClick={copyToClipboard}>
+                Copy
+              </Button>
                         </div>
                     </div>
                 </CardContent>
