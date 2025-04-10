@@ -35,8 +35,8 @@ const Receive = () => {
                         </div>
 
                         <p className="text-sm text-center text-muted-foreground">
-              Scan this QR code to send money to this wallet
-            </p>
+                            Scan this QR code to send money to this wallet
+                        </p>
                     </div>
                 </CardContent>
             </Card>
