@@ -21,6 +21,8 @@ const Airtime = () => {
                     <CardTitle>Mobile Airtime & Bundles</CardTitle>
                     <CardDescription>Purchase airtime or data bundles</CardDescription>
                 </CardHeader>
+
+                <CardContent></CardContent>
             </Card>
         </div>
     );
