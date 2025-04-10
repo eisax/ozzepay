@@ -11,6 +11,7 @@ import NotFound from "./pages/NotFound";
 import viteLogo from '/vite.svg';
 import { useState } from 'react';
 import './App.css';
+import { AppLayout } from "./components/layout/AppLayout";
 
 
 
