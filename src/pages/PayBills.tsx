@@ -22,6 +22,7 @@ const PayBills = () => {
                     <CardTitle>Pay Your Bills</CardTitle>
                     <CardDescription>Select a service provider and make your payment</CardDescription>
                 </CardHeader>
+                <CardContent></CardContent>
             </Card>
         </div>
     );
