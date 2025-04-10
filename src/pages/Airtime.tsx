@@ -39,9 +39,23 @@ const Airtime = () => {
                             <Label htmlFor="phone">Phone Number</Label>
                             <Input id="phone" placeholder="Enter phone number" />
                         </div>
+
+                        <div className="space-y-2">
+                            <Label htmlFor="type">Purchase Type</Label>
+                            <Select>
+                                <SelectTrigger id="type">
+                                    <SelectValue placeholder="Select type" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="airtime">Airtime</SelectItem>
+                                    <SelectItem value="data">Data Bundle</SelectItem>
+                                    <SelectItem value="voice">Voice Bundle</SelectItem>
+                                </SelectContent>
+                            </Select>
+                        </div>
                     </form>
 
-                    
+
                 </CardContent>
             </Card>
         </div>
