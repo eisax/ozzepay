@@ -208,6 +208,11 @@ const Profile = () => {
                                                             <p className="text-sm text-muted-foreground">Connected</p>
                                                         </div>
                                                     </div>
+
+                                                    <div className="flex items-center gap-1 text-sm text-wallet-eco">
+                                                        <Check size={16} />
+                                                        <span>Verified</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
