@@ -43,18 +43,18 @@ const Profile = () => {
 
     const handleSave = () => {
         setIsSaving(true);
-        
+
         // Simulate API call
         setTimeout(() => {
-          setIsSaving(false);
-          setIsEditing(false);
-          
-          toast({
-            title: "Profile updated",
-            description: "Your profile information has been updated successfully",
-          });
+            setIsSaving(false);
+            setIsEditing(false);
+
+            toast({
+                title: "Profile updated",
+                description: "Your profile information has been updated successfully",
+            });
         }, 1000);
-      };
+    };
 
 
     return (
@@ -173,7 +173,27 @@ const Profile = () => {
                                         </div>
                                     </form>
                                 ) : (
-                                    <div className="space-y-6"></div>
+                                    <div className="space-y-6">
+
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6">
+                                            <div>
+                                                <h3 className="text-sm font-medium text-muted-foreground">Full Name</h3>
+                                                <p className="mt-1">{profile.name}</p>
+                                            </div>
+                                            <div>
+                                                <h3 className="text-sm font-medium text-muted-foreground">Email Address</h3>
+                                                <p className="mt-1">{profile.email}</p>
+                                            </div>
+                                            <div>
+                                                <h3 className="text-sm font-medium text-muted-foreground">Phone Number</h3>
+                                                <p className="mt-1">{profile.phone}</p>
+                                            </div>
+                                            <div>
+                                                <h3 className="text-sm font-medium text-muted-foreground">Address</h3>
+                                                <p className="mt-1">{profile.address}</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 )}
                             </TabsContent>
                         </Tabs>
