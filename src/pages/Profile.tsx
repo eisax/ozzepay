@@ -144,7 +144,18 @@ const Profile = () => {
                                             </div>
                                         </div>
 
-                                        
+                                        <div className="flex justify-end space-x-2 pt-4">
+                                            <Button type="button" variant="outline" onClick={() => setIsEditing(false)}>
+                                                Cancel
+                                            </Button>
+                                            <Button
+                                                type="button"
+                                                onClick={handleSave}
+                                                disabled={isSaving}
+                                            >
+                                                {isSaving ? "Saving..." : "Save Changes"}
+                                            </Button>
+                                        </div>
                                     </form>
                                 ) : (
                                     <div className="space-y-6"></div>
