@@ -54,7 +54,9 @@ const Profile = () => {
                     </CardContent>
                 </Card>
 
-                <Card className="md:col-span-2"></Card>
+                <Card className="md:col-span-2">
+                    <CardHeader className="pb-2"></CardHeader>
+                </Card>
             </div>
         </div>
     );
