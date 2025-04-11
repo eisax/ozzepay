@@ -98,6 +98,8 @@ const Profile = () => {
                                     Preferences
                                 </TabsTrigger>
                             </TabsList>
+
+                            <TabsContent value="personal"></TabsContent>
                         </Tabs>
                     </CardContent>
                 </Card>
