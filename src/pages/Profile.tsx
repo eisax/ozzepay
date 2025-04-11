@@ -117,6 +117,11 @@ const Profile = () => {
                                                 <h3 className="text-sm font-medium text-muted-foreground">Phone Number</h3>
                                                 <p className="mt-1">{profile.phone}</p>
                                             </div>
+
+                                            <div>
+                                                <h3 className="text-sm font-medium text-muted-foreground">Address</h3>
+                                                <p className="mt-1">{profile.address}</p>
+                                            </div>
                                         </div>
                                     </form>
                                 ) : (
