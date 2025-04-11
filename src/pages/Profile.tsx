@@ -24,6 +24,8 @@ const Profile = () => {
                             <AvatarImage src="" alt="Profile picture" />
                             <AvatarFallback className="text-2xl bg-primary text-primary-foreground">TD</AvatarFallback>
                         </Avatar>
+
+                        <h2 className="text-xl font-semibold">{profile.name}</h2>
                     </CardContent>
                 </Card>
             </div>
