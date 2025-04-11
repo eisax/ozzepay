@@ -51,6 +51,8 @@ const Electricity = () => {
 
                         <Button type="submit" className="w-full">Purchase Token</Button>
                     </form>
+
+                    <div className="mt-6 p-4 bg-muted rounded-lg"></div>
                 </CardContent>
             </Card>
         </div>
