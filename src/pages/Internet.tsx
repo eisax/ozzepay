@@ -22,7 +22,9 @@ const Internet = () => {
                     <CardDescription>Pay for your internet service</CardDescription>
                 </CardHeader>
 
-                <CardContent></CardContent>
+                <CardContent>
+                <div className="grid grid-cols-3 gap-3 mb-6"></div>
+                </CardContent>
             </Card>
         </div>
     );
