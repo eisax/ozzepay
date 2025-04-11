@@ -18,7 +18,9 @@ const Profile = () => {
                         <CardDescription>Manage your personal information</CardDescription>
                     </CardHeader>
 
-                    <CardContent className="flex flex-col items-center pt-6"></CardContent>
+                    <CardContent className="flex flex-col items-center pt-6">
+                    <Avatar className="h-28 w-28 mb-4">
+                    </CardContent>
                 </Card>
             </div>
         </div>
