@@ -23,7 +23,9 @@ const Electricity = () => {
                     <CardDescription>Purchase prepaid electricity tokens</CardDescription>
                 </CardHeader>
 
-                <CardContent></CardContent>
+                <CardContent>
+                <div className="flex justify-center mb-6"></div>
+                </CardContent>
             </Card>
         </div>
     );
