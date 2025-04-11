@@ -102,7 +102,22 @@ const Profile = () => {
                             <TabsContent value="personal">
                                 {isEditing ? (
                                     <form className="space-y-4">
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6"></div>
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6">
+                                            <div>
+                                                <h3 className="text-sm font-medium text-muted-foreground">Full Name</h3>
+                                                <p className="mt-1">{profile.name}</p>
+                                            </div>
+
+                                            <div>
+                                                <h3 className="text-sm font-medium text-muted-foreground">Email Address</h3>
+                                                <p className="mt-1">{profile.email}</p>
+                                            </div>
+
+                                            <div>
+                        <h3 className="text-sm font-medium text-muted-foreground">Phone Number</h3>
+                        <p className="mt-1">{profile.phone}</p>
+                      </div>
+                                        </div>
                                     </form>
                                 ) : (
                                     <div className="space-y-6"></div>
