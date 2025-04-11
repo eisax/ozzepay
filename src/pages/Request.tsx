@@ -6,7 +6,9 @@ const Request = () => {
 
 
     return (
-        <div className="space-y-6"></div>
+        <div className="space-y-6">
+            <h1 className="text-2xl font-bold">Request Money</h1>
+        </div>
     );
 }
 
