@@ -72,7 +72,9 @@ const Internet = () => {
                             </Select>
                         </div>
 
-                        <div className="space-y-2"></div>
+                        <div className="space-y-2">
+                            <Label htmlFor="amount">Amount (USD)</Label>
+                        </div>
                     </form>
                 </CardContent>
             </Card>
