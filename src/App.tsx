@@ -42,6 +42,7 @@ const App = () => (
               <Route path="/airtime" element={<Airtime />} />
               <Route path="/internet" element={<Internet />} />
               <Route path="/electricity" element={<Electricity />} />
+              <Route path="/request" element={<Request />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
