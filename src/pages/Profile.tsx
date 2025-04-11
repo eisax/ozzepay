@@ -87,6 +87,11 @@ const Profile = () => {
                                     <Shield size={16} className="mr-2" />
                                     Security
                                 </TabsTrigger>
+
+                                <TabsTrigger value="notifications">
+                                    <Bell size={16} className="mr-2" />
+                                    Notifications
+                                </TabsTrigger>
                             </TabsList>
                         </Tabs>
                     </CardContent>
