@@ -123,6 +123,8 @@ const Profile = () => {
                                                 <p className="mt-1">{profile.address}</p>
                                             </div>
                                         </div>
+
+                                        <div className="border-t pt-6"></div>
                                     </form>
                                 ) : (
                                     <div className="space-y-6"></div>
