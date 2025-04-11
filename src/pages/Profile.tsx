@@ -67,7 +67,9 @@ const Profile = () => {
                     </CardHeader>
 
                     <CardContent className="pt-6">
-                    <Tabs defaultValue="personal"></Tabs>
+                    <Tabs defaultValue="personal">
+                    <TabsList className="mb-6"></TabsList>
+                    </Tabs>
                     </CardContent>
                 </Card>
             </div>
