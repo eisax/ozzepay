@@ -15,6 +15,8 @@ const Electricity = () => {
     return (
         <div className="space-y-6">
             <h1 className="text-2xl font-bold">Buy Electricity</h1>
+
+            <Card className="max-w-md mx-auto"></Card>
         </div>
     );
 };
