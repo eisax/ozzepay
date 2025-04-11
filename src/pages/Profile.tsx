@@ -108,28 +108,11 @@ const Profile = () => {
                                                 <p className="mt-1">{profile.name}</p>
                                             </div>
 
-                                            <div>
-                                                <h3 className="text-sm font-medium text-muted-foreground">Email Address</h3>
-                                                <p className="mt-1">{profile.email}</p>
-                                            </div>
-
-                                            <div>
-                                                <h3 className="text-sm font-medium text-muted-foreground">Phone Number</h3>
-                                                <p className="mt-1">{profile.phone}</p>
-                                            </div>
-
-                                            <div>
-                                                <h3 className="text-sm font-medium text-muted-foreground">Address</h3>
-                                                <p className="mt-1">{profile.address}</p>
-                                            </div>
+                                            
                                         </div>
-
-                                        <div className="border-t pt-6"></div>
                                     </form>
                                 ) : (
-                                    <div className="space-y-6">
-                                        <h3 className="font-medium mb-4">Linked Wallets</h3>
-                                    </div>
+                                    <div className="space-y-6"></div>
                                 )}
                             </TabsContent>
                         </Tabs>
