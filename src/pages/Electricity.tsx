@@ -10,6 +10,9 @@ const Electricity = () => {
             description: "Your electricity token has been generated",
         });
     };
+
+
+    return ()
 };
 
 export default Electricity;
