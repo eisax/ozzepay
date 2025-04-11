@@ -100,7 +100,9 @@ const Profile = () => {
                             </TabsList>
 
                             <TabsContent value="personal">
-                            {isEditing ? ():()};
+                            {isEditing ? (
+                                 <form className="space-y-4"></form>
+                            ):()};
                             </TabsContent>
                         </Tabs>
                     </CardContent>
