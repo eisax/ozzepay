@@ -42,6 +42,10 @@ const Profile = () => {
 
                         <h2 className="text-xl font-semibold">{profile.name}</h2>
                         <p className="text-muted-foreground mb-6">{profile.email}</p>
+
+                        <Button className="w-full mb-2" variant="outline" onClick={() => setIsEditing(true)}>
+                            Edit Profile
+                        </Button>
                     </CardContent>
                 </Card>
             </div>
