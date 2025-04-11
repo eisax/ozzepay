@@ -1,6 +1,8 @@
 import { useToast } from "@/hooks/use-toast";
 import { Zap } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 
 const Electricity = () => {
     const { toast } = useToast();
