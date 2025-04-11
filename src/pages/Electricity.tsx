@@ -47,6 +47,8 @@ const Electricity = () => {
                                 <Input id="amount" type="number" className="pl-7" placeholder="0.00" />
                             </div>
                         </div>
+
+                        <Button type="submit" className="w-full">Purchase Token</Button>
                     </form>
                 </CardContent>
             </Card>
