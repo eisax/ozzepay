@@ -39,7 +39,9 @@ const Electricity = () => {
                             <Input id="meter" placeholder="Enter meter number" />
                         </div>
 
-                        <div className="space-y-2"></div>
+                        <div className="space-y-2">
+                        <Label htmlFor="amount">Amount (USD)</Label>
+                        </div>
                     </form>
                 </CardContent>
             </Card>
