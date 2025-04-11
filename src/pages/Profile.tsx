@@ -41,6 +41,7 @@ const Profile = () => {
                         </Avatar>
 
                         <h2 className="text-xl font-semibold">{profile.name}</h2>
+                        <p className="text-muted-foreground mb-6">{profile.email}</p>
                     </CardContent>
                 </Card>
             </div>
