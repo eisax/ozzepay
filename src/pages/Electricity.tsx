@@ -56,7 +56,10 @@ const Electricity = () => {
                         <h3 className="font-medium text-sm mb-2">Recent Purchases</h3>
 
                         <div className="space-y-2 text-sm">
-                            <div className="flex justify-between"></div>
+                            <div className="flex justify-between">
+                            <div className="text-muted-foreground">Meter #123456</div>
+                            <div>$20.00</div>
+                            </div>
                         </div>
                     </div>
                 </CardContent>
