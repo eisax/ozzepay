@@ -197,7 +197,9 @@ const Profile = () => {
                                         <div className="border-t pt-6">
                                         <h3 className="font-medium mb-4">Linked Wallets</h3>
 
-                                        <div className="space-y-3"></div>
+                                        <div className="space-y-3">
+                                        <div className="flex items-center justify-between p-3 border rounded-lg"></div>
+                                        </div>
                                         </div>
                                     </div>
                                 )}
