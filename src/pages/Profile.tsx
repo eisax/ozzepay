@@ -11,6 +11,15 @@ import {
     TabsList,
     TabsTrigger,
 } from "@/components/ui/tabs";
+import {
+    CreditCard,
+    User,
+    Shield,
+    Bell,
+    Settings,
+    Check,
+    Fingerprint,
+  } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
