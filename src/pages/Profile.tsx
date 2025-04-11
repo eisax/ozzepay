@@ -102,7 +102,16 @@ const Profile = () => {
                             <TabsContent value="personal">
                                 {isEditing ? (
                                     <form className="space-y-4">
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            <div className="space-y-2">
+                                                <Label htmlFor="name">Full Name</Label>
+                                                <Input
+                                                    id="name"
+                                                    value={profile.name}
+                                                    onChange={(e) => setProfile({ ...profile, name: e.target.value })}
+                                                />
+                                            </div>
+                                        </div>
                                     </form>
                                 ) : (
                                     <div className="space-y-6"></div>
