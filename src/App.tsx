@@ -16,6 +16,7 @@ import Receive from "./pages/Receive";
 import PayBills from "./pages/PayBills";
 import Airtime from "./pages/Airtime";
 import Internet from "./pages/Internet";
+import Electricity from "./pages/Electricity";
 
 const queryClient = new QueryClient();
 
