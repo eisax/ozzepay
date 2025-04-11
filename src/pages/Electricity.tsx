@@ -30,6 +30,8 @@ const Electricity = () => {
                             <Zap className="h-8 w-8 text-amber-500" />
                         </div>
                     </div>
+
+                    
                 </CardContent>
             </Card>
         </div>
