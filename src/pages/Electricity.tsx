@@ -22,6 +22,8 @@ const Electricity = () => {
                     <CardTitle>ZESA Electricity</CardTitle>
                     <CardDescription>Purchase prepaid electricity tokens</CardDescription>
                 </CardHeader>
+
+                <CardContent></CardContent>
             </Card>
         </div>
     );
