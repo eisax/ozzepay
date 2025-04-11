@@ -8,6 +8,15 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const Profile = () => {
+
+    const [profile, setProfile] = useState({
+        name: "Thomas Dhlamini",
+        email: "thomas.dhlamini@example.com",
+        phone: "+263 77 123 4567",
+        address: "123 Main Street, Harare",
+      });
+
+      
     return (
         <div className="space-y-6">
             <h1 className="text-2xl font-bold">Profile</h1>
