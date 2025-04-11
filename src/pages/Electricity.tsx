@@ -57,8 +57,8 @@ const Electricity = () => {
 
                         <div className="space-y-2 text-sm">
                             <div className="flex justify-between">
-                            <div className="text-muted-foreground">Meter #123456</div>
-                            <div>$20.00</div>
+                                <div className="text-muted-foreground">Meter #123456</div>
+                                <div>$20.00</div>
                             </div>
                         </div>
                     </div>
