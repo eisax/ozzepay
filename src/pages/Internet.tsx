@@ -23,7 +23,7 @@ const Internet = () => {
                 </CardHeader>
 
                 <CardContent>
-                <div className="grid grid-cols-3 gap-3 mb-6"></div>
+                    <div className="grid grid-cols-3 gap-3 mb-6"></div>
                 </CardContent>
             </Card>
         </div>
