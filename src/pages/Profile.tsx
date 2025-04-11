@@ -17,6 +17,8 @@ const Profile = () => {
                         <CardTitle className="text-xl font-semibold">Your Profile</CardTitle>
                         <CardDescription>Manage your personal information</CardDescription>
                     </CardHeader>
+
+                    <CardContent className="flex flex-col items-center pt-6"></CardContent>
                 </Card>
             </div>
         </div>
