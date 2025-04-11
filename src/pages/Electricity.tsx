@@ -18,7 +18,9 @@ const Electricity = () => {
             <h1 className="text-2xl font-bold">Buy Electricity</h1>
 
             <Card className="max-w-md mx-auto">
-            <CardHeader></CardHeader>
+            <CardHeader>
+            <CardTitle>ZESA Electricity</CardTitle>
+            </CardHeader>
             </Card>
         </div>
     );
