@@ -19,6 +19,7 @@ const Internet = () => {
             <Card className="max-w-md mx-auto">
                 <CardHeader>
                     <CardTitle>Internet & WiFi</CardTitle>
+                    <CardDescription>Pay for your internet service</CardDescription>
                 </CardHeader>
             </Card>
         </div>
