@@ -40,7 +40,7 @@ const Electricity = () => {
                         </div>
 
                         <div className="space-y-2">
-                        <Label htmlFor="amount">Amount (USD)</Label>
+                            <Label htmlFor="amount">Amount (USD)</Label>
                         </div>
                     </form>
                 </CardContent>
