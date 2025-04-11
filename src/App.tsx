@@ -18,6 +18,7 @@ import Airtime from "./pages/Airtime";
 import Internet from "./pages/Internet";
 import Electricity from "./pages/Electricity";
 import Request from "./pages/Request";
+import Profile from "./pages/Profile";
 
 const queryClient = new QueryClient();
 
