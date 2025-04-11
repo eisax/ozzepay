@@ -51,7 +51,18 @@ const Internet = () => {
                         </div>
 
                         <div className="space-y-2">
-                        <Label htmlFor="package">Internet Package</Label>
+                            <Label htmlFor="package">Internet Package</Label>
+
+                            <Select>
+                                <SelectTrigger id="package">
+                                    <SelectValue placeholder="Select package" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="basic">Basic (10Mbps)</SelectItem>
+                                    <SelectItem value="standard">Standard (30Mbps)</SelectItem>
+                                    <SelectItem value="premium">Premium (100Mbps)</SelectItem>
+                                </SelectContent>
+                            </Select>
                         </div>
                     </form>
                 </CardContent>
