@@ -18,9 +18,10 @@ const Electricity = () => {
             <h1 className="text-2xl font-bold">Buy Electricity</h1>
 
             <Card className="max-w-md mx-auto">
-            <CardHeader>
-            <CardTitle>ZESA Electricity</CardTitle>
-            </CardHeader>
+                <CardHeader>
+                    <CardTitle>ZESA Electricity</CardTitle>
+                    <CardDescription>Purchase prepaid electricity tokens</CardDescription>
+                </CardHeader>
             </Card>
         </div>
     );
