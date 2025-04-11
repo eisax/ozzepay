@@ -10,6 +10,8 @@ const Internet = () => {
             description: "Your internet package has been successfully purchased",
         });
     };
+
+    return ()
 }
 
 export default Internet;
