@@ -59,6 +59,8 @@ const Profile = () => {
                         <CardTitle className="text-xl font-semibold">Account Information</CardTitle>
                         <CardDescription>View and update your account details</CardDescription>
                     </CardHeader>
+
+                    <CardContent className="pt-6"></CardContent>
                 </Card>
             </div>
         </div>
