@@ -15,6 +15,10 @@ import { ProtectedRoute } from "./components/auth/ProtectedRoute";
 import Receive from "./pages/Receive";
 import PayBills from "./pages/PayBills";
 import Airtime from "./pages/Airtime";
+import Internet from "./pages/Internet";
+import Electricity from "./pages/Electricity";
+import Request from "./pages/Request";
+import Profile from "./pages/Profile";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +42,10 @@ const App = () => (
               <Route path="/receive" element={<Receive />} />
               <Route path="/pay-bills" element={<PayBills />} />
               <Route path="/airtime" element={<Airtime />} />
+              <Route path="/internet" element={<Internet />} />
+              <Route path="/electricity" element={<Electricity />} />
+              <Route path="/request" element={<Request />} />
+              <Route path="/profile" element={<Profile />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
