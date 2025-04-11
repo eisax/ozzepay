@@ -31,7 +31,9 @@ const Electricity = () => {
                         </div>
                     </div>
 
-                    <form onSubmit={handlePurchase} className="space-y-4"></form>
+                    <form onSubmit={handlePurchase} className="space-y-4">
+                    <div className="space-y-2"></div>
+                    </form>
                 </CardContent>
             </Card>
         </div>
