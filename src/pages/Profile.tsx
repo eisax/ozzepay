@@ -104,7 +104,7 @@ const Profile = () => {
                                     <form className="space-y-4"></form>
                                 ) : (
                                     <div className="space-y-6"></div>
-                                )};
+                                )}
                             </TabsContent>
                         </Tabs>
                     </CardContent>
