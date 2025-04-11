@@ -19,7 +19,7 @@ const Profile = () => {
                     </CardHeader>
 
                     <CardContent className="flex flex-col items-center pt-6">
-                    <Avatar className="h-28 w-28 mb-4">
+                    <Avatar className="h-28 w-28 mb-4"></Avatar>
                     </CardContent>
                 </Card>
             </div>
