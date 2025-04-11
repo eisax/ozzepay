@@ -1,1 +1,3 @@
-const Internet = () => {}
+const Internet = () => { }
+
+export default Internet;
