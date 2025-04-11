@@ -99,7 +99,9 @@ const Profile = () => {
                                 </TabsTrigger>
                             </TabsList>
 
-                            <TabsContent value="personal"></TabsContent>
+                            <TabsContent value="personal">
+                            {isEditing ? ()
+                            </TabsContent>
                         </Tabs>
                     </CardContent>
                 </Card>
