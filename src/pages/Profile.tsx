@@ -56,7 +56,8 @@ const Profile = () => {
 
                 <Card className="md:col-span-2">
                     <CardHeader className="pb-2">
-                    <CardTitle className="text-xl font-semibold">Account Information</CardTitle>
+                        <CardTitle className="text-xl font-semibold">Account Information</CardTitle>
+                        <CardDescription>View and update your account details</CardDescription>
                     </CardHeader>
                 </Card>
             </div>
