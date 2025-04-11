@@ -13,7 +13,9 @@ const Profile = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card className="md:col-span-1">
-            <CardHeader className="pb-2"></CardHeader>
+            <CardHeader className="pb-2">
+            <CardTitle className="text-xl font-semibold">Your Profile</CardTitle>
+            </CardHeader>
             </Card>
             </div>
         </div>
