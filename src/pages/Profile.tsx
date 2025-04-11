@@ -4,7 +4,7 @@ import {
     CardDescription,
     CardHeader,
     CardTitle,
-  } from "@/components/ui/card";
+} from "@/components/ui/card";
 
 const Profile = () => {
     return (
@@ -12,11 +12,12 @@ const Profile = () => {
             <h1 className="text-2xl font-bold">Profile</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Card className="md:col-span-1">
-            <CardHeader className="pb-2">
-            <CardTitle className="text-xl font-semibold">Your Profile</CardTitle>
-            </CardHeader>
-            </Card>
+                <Card className="md:col-span-1">
+                    <CardHeader className="pb-2">
+                        <CardTitle className="text-xl font-semibold">Your Profile</CardTitle>
+                        <CardDescription>Manage your personal information</CardDescription>
+                    </CardHeader>
+                </Card>
             </div>
         </div>
     );
