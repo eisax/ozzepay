@@ -60,7 +60,9 @@ const Profile = () => {
                         <CardDescription>View and update your account details</CardDescription>
                     </CardHeader>
 
-                    <CardContent className="pt-6"></CardContent>
+                    <CardContent className="pt-6">
+                    <Tabs defaultValue="personal"></Tabs>
+                    </CardContent>
                 </Card>
             </div>
         </div>
