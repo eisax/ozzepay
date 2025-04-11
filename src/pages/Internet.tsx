@@ -17,7 +17,9 @@ const Internet = () => {
             <h1 className="text-2xl font-bold">Internet Services</h1>
 
             <Card className="max-w-md mx-auto">
-            <CardHeader></CardHeader>
+                <CardHeader>
+                    <CardTitle>Internet & WiFi</CardTitle>
+                </CardHeader>
             </Card>
         </div>
     );
