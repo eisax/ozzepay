@@ -71,6 +71,8 @@ const Internet = () => {
                                 </SelectContent>
                             </Select>
                         </div>
+
+                        <div className="space-y-2"></div>
                     </form>
                 </CardContent>
             </Card>
