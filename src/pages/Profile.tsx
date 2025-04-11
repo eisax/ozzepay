@@ -17,7 +17,7 @@ const Profile = () => {
 
     const [profile, setProfile] = useState({
         name: "Kudah Ndhlovu",
-        email: "thomas.dhlamini@ozzepay.com",
+        email: "kudah.ndhlovu@ozzepay.com",
         phone: "+263 77 123 4567",
         address: "123 Main Street, Harare",
     });
