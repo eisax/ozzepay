@@ -124,6 +124,15 @@ const Profile = () => {
                           onChange={(e) => setProfile({...profile, email: e.target.value})}
                         />
                       </div>
+
+                      <div className="space-y-2">
+                        <Label htmlFor="phone">Phone Number</Label>
+                        <Input 
+                          id="phone" 
+                          value={profile.phone} 
+                          onChange={(e) => setProfile({...profile, phone: e.target.value})}
+                        />
+                      </div>
                                         </div>
                                     </form>
                                 ) : (
