@@ -21,6 +21,8 @@ const Internet = () => {
                     <CardTitle>Internet & WiFi</CardTitle>
                     <CardDescription>Pay for your internet service</CardDescription>
                 </CardHeader>
+
+                <CardContent></CardContent>
             </Card>
         </div>
     );
