@@ -195,11 +195,21 @@ const Profile = () => {
                                         </div>
 
                                         <div className="border-t pt-6">
-                                        <h3 className="font-medium mb-4">Linked Wallets</h3>
+                                            <h3 className="font-medium mb-4">Linked Wallets</h3>
 
-                                        <div className="space-y-3">
-                                        <div className="flex items-center justify-between p-3 border rounded-lg"></div>
-                                        </div>
+                                            <div className="space-y-3">
+                                                <div className="flex items-center justify-between p-3 border rounded-lg">
+                                                    <div className="flex items-center gap-3">
+                                                        <div className="w-10 h-10 rounded-full bg-wallet-eco flex items-center justify-center text-white">
+                                                            E
+                                                        </div>
+                                                        <div>
+                                                            <p className="font-medium">Ecocash</p>
+                                                            <p className="text-sm text-muted-foreground">Connected</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 )}
