@@ -50,7 +50,9 @@ const Internet = () => {
                             <Input id="account" placeholder="Enter account number" />
                         </div>
 
-                        <div className="space-y-2"></div>
+                        <div className="space-y-2">
+                        <Label htmlFor="package">Internet Package</Label>
+                        </div>
                     </form>
                 </CardContent>
             </Card>
