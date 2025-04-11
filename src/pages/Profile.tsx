@@ -53,6 +53,8 @@ const Profile = () => {
                         </Button>
                     </CardContent>
                 </Card>
+
+                <Card className="md:col-span-2"></Card>
             </div>
         </div>
     );
