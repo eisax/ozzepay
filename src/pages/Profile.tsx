@@ -100,7 +100,7 @@ const Profile = () => {
                             </TabsList>
 
                             <TabsContent value="personal">
-                            {isEditing ? ()
+                            {isEditing ? ():()}
                             </TabsContent>
                         </Tabs>
                     </CardContent>
