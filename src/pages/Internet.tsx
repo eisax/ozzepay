@@ -30,6 +30,11 @@ const Internet = () => {
                             <Wifi className="h-6 w-6 text-blue-500" />
                             <span>ZOL</span>
                         </Button>
+
+                        <Button variant="outline" className="h-20 flex flex-col items-center justify-center gap-2">
+                            <Wifi className="h-6 w-6 text-green-500" />
+                            <span>TelOne</span>
+                        </Button>
                     </div>
                 </CardContent>
             </Card>
