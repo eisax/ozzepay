@@ -16,8 +16,8 @@ const Profile = () => {
     const [isSaving, setIsSaving] = useState(false);
 
     const [profile, setProfile] = useState({
-        name: "Thomas Dhlamini",
-        email: "thomas.dhlamini@example.com",
+        name: "Kudah Ndhlovu",
+        email: "thomas.dhlamini@ozzepay.com",
         phone: "+263 77 123 4567",
         address: "123 Main Street, Harare",
     });
