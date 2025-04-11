@@ -10,7 +10,7 @@ import {
     TabsContent,
     TabsList,
     TabsTrigger,
-  } from "@/components/ui/tabs";
+} from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
@@ -67,9 +67,14 @@ const Profile = () => {
                     </CardHeader>
 
                     <CardContent className="pt-6">
-                    <Tabs defaultValue="personal">
-                    <TabsList className="mb-6"></TabsList>
-                    </Tabs>
+                        <Tabs defaultValue="personal">
+                            <TabsList className="mb-6">
+                            <TabsTrigger value="personal">
+                  <User size={16} className="mr-2" />
+                  Personal
+                </TabsTrigger>
+                            </TabsList>
+                        </Tabs>
                     </CardContent>
                 </Card>
             </div>
