@@ -102,7 +102,7 @@ const Profile = () => {
                             <TabsContent value="personal">
                                 {isEditing ? (
                                     <form className="space-y-4">
-                                        
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
                                     </form>
                                 ) : (
                                     <div className="space-y-6"></div>
