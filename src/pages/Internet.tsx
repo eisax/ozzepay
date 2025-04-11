@@ -45,6 +45,7 @@ const Internet = () => {
                     <form onSubmit={handlePay} className="space-y-4">
                         <div className="space-y-2">
                             <Label htmlFor="account">Account Number</Label>
+                            <Input id="account" placeholder="Enter account number" />
                         </div>
                     </form>
                 </CardContent>
