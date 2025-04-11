@@ -127,7 +127,9 @@ const Profile = () => {
                                         <div className="border-t pt-6"></div>
                                     </form>
                                 ) : (
-                                    <div className="space-y-6"></div>
+                                    <div className="space-y-6">
+                                        <h3 className="font-medium mb-4">Linked Wallets</h3>
+                                    </div>
                                 )}
                             </TabsContent>
                         </Tabs>
