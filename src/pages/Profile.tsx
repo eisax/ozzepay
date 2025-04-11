@@ -232,20 +232,36 @@ const Profile = () => {
                                                 </div>
 
                                                 <div className="flex items-center justify-between p-3 border rounded-lg">
-                          <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-full bg-wallet-inn flex items-center justify-center text-white">
-                              I
-                            </div>
-                            <div>
-                              <p className="font-medium">Innbucks</p>
-                              <p className="text-sm text-muted-foreground">Connected</p>
-                            </div>
-                          </div>
-                          <div className="flex items-center gap-1 text-sm text-wallet-eco">
-                            <Check size={16} />
-                            <span>Verified</span>
-                          </div>
-                        </div>
+                                                    <div className="flex items-center gap-3">
+                                                        <div className="w-10 h-10 rounded-full bg-wallet-inn flex items-center justify-center text-white">
+                                                            I
+                                                        </div>
+                                                        <div>
+                                                            <p className="font-medium">Innbucks</p>
+                                                            <p className="text-sm text-muted-foreground">Connected</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="flex items-center gap-1 text-sm text-wallet-eco">
+                                                        <Check size={16} />
+                                                        <span>Verified</span>
+                                                    </div>
+                                                </div>
+
+                                                <div className="flex items-center justify-between p-3 border rounded-lg">
+                                                    <div className="flex items-center gap-3">
+                                                        <div className="w-10 h-10 rounded-full bg-wallet-one flex items-center justify-center text-white">
+                                                            O
+                                                        </div>
+                                                        <div>
+                                                            <p className="font-medium">OneMoney</p>
+                                                            <p className="text-sm text-muted-foreground">Connected</p>
+                                                        </div>
+                                                    </div>
+                                                    <div className="flex items-center gap-1 text-sm text-wallet-eco">
+                                                        <Check size={16} />
+                                                        <span>Verified</span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
