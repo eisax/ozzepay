@@ -79,6 +79,8 @@ const Internet = () => {
                                 <Input id="amount" type="number" className="pl-7" placeholder="0.00" />
                             </div>
                         </div>
+
+                        <Button type="submit" className="w-full">Pay Now</Button>
                     </form>
                 </CardContent>
             </Card>
