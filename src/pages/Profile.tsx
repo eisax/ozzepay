@@ -41,6 +41,21 @@ const Profile = () => {
         address: "123 Main Street, Harare",
     });
 
+    const handleSave = () => {
+        setIsSaving(true);
+        
+        // Simulate API call
+        setTimeout(() => {
+          setIsSaving(false);
+          setIsEditing(false);
+          
+          toast({
+            title: "Profile updated",
+            description: "Your profile information has been updated successfully",
+          });
+        }, 1000);
+      };
+
 
     return (
         <div className="space-y-6">
