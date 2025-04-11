@@ -92,6 +92,11 @@ const Profile = () => {
                                     <Bell size={16} className="mr-2" />
                                     Notifications
                                 </TabsTrigger>
+
+                                <TabsTrigger value="preferences">
+                                    <Settings size={16} className="mr-2" />
+                                    Preferences
+                                </TabsTrigger>
                             </TabsList>
                         </Tabs>
                     </CardContent>
