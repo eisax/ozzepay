@@ -34,6 +34,7 @@ const Electricity = () => {
                     <form onSubmit={handlePurchase} className="space-y-4">
                         <div className="space-y-2">
                             <Label htmlFor="meter">Meter Number</Label>
+                            <Input id="meter" placeholder="Enter meter number" />
                         </div>
                     </form>
                 </CardContent>
