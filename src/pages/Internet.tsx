@@ -49,6 +49,8 @@ const Internet = () => {
                             <Label htmlFor="account">Account Number</Label>
                             <Input id="account" placeholder="Enter account number" />
                         </div>
+
+                        <div className="space-y-2"></div>
                     </form>
                 </CardContent>
             </Card>
