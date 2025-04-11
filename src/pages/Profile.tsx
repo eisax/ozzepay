@@ -46,6 +46,10 @@ const Profile = () => {
                         <Button className="w-full mb-2" variant="outline" onClick={() => setIsEditing(true)}>
                             Edit Profile
                         </Button>
+
+                        <Button className="w-full" variant="secondary">
+                            Change Password
+                        </Button>
                     </CardContent>
                 </Card>
             </div>
