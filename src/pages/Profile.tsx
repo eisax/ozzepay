@@ -19,7 +19,7 @@ import {
     Settings,
     Check,
     Fingerprint,
-  } from "lucide-react";
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
@@ -81,6 +81,11 @@ const Profile = () => {
                                 <TabsTrigger value="personal">
                                     <User size={16} className="mr-2" />
                                     Personal
+                                </TabsTrigger>
+
+                                <TabsTrigger value="security">
+                                    <Shield size={16} className="mr-2" />
+                                    Security
                                 </TabsTrigger>
                             </TabsList>
                         </Tabs>
