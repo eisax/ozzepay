@@ -367,6 +367,8 @@ const Settings = () => {
                             <CardTitle>Notification Preferences</CardTitle>
                             <CardDescription>Choose what notifications you receive</CardDescription>
                         </CardHeader>
+
+                        <CardContent className="space-y-4"></CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
