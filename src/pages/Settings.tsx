@@ -324,10 +324,10 @@ const Settings = () => {
 
                         <CardContent>
                             <div className="flex items-center justify-between">
-                            <div>
-                  <div className="font-medium">Enable 2FA</div>
-                  <div className="text-sm text-muted-foreground">Secure your account with two-factor authentication</div>
-                </div>
+                                <div>
+                                    <div className="font-medium">Enable 2FA</div>
+                                    <div className="text-sm text-muted-foreground">Secure your account with two-factor authentication</div>
+                                </div>
                             </div>
                         </CardContent>
                     </Card>
