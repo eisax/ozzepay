@@ -92,7 +92,7 @@ const Payment = () => {
 
                 <CardContent>
                     <Tabs defaultValue="utilities" className="w-full">
-                    <TabsList className="grid grid-cols-4 mb-6">
+                        <TabsList className="grid grid-cols-4 mb-6"></TabsList>
                     </Tabs>
                 </CardContent>
             </Card>
