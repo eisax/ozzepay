@@ -25,6 +25,7 @@ import { Button } from "@/components/ui/button";
 
 const Settings = () => {
     const { toast } = useToast();
+    const [isLoading, setIsLoading] = useState(false);
 
 
     return (
