@@ -68,6 +68,8 @@ const Analytics = () => {
         }
     };
 
+    const totalSpending = getSpendingData().reduce((sum, item) => sum + item.amount, 0);
+
     return (
         <div className="space-y-6"></div>
     );
