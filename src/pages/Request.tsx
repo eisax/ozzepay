@@ -54,7 +54,9 @@ const Request = () => {
                             <Input id="recipient" placeholder="Enter phone or email" />
                         </div>
 
-                        <div className="space-y-2"></div>
+                        <div className="space-y-2">
+                            <Label htmlFor="amount">Amount (USD)</Label>
+                        </div>
                     </form>
                 </CardContent>
             </Card>
