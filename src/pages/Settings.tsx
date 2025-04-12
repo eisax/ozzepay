@@ -203,7 +203,7 @@ const Settings = () => {
                                             onChange={(e) => setCurrentPassword(e.target.value)}
                                         />
 
-                                        <Button
+<Button
                                             type="button"
                                             variant="ghost"
                                             size="icon"
