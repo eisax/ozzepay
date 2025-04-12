@@ -20,6 +20,7 @@ import Electricity from "./pages/Electricity";
 import Request from "./pages/Request";
 import Profile from "./pages/Profile";
 import Payment from "./pages/Payment";
+import Analytics from "./pages/Analytics";
 
 const queryClient = new QueryClient();
 
