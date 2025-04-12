@@ -135,6 +135,7 @@ const Payment = () => {
 
                                 <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
                                     <Tv className="h-6 w-6 text-purple-500" />
+                                    <span>DStv</span>
                                 </Button>
                             </div>
                         </TabsContent>
