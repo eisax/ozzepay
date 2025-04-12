@@ -283,6 +283,7 @@ const Profile = () => {
                                                     <p className="text-sm text-muted-foreground">Use fingerprint or face recognition to login</p>
                                                 </div>
                                             </div>
+                                            <Switch />
                                         </div>
                                     </div>
                                 </div>
