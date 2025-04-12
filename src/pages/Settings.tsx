@@ -509,6 +509,8 @@ const Settings = () => {
                                     <Input id="monthlyLimit" type="number" className="pl-7" defaultValue="10000" />
                                 </div>
                             </div>
+
+                            <Button>Save Limits</Button>
                         </CardContent>
                     </Card>
                 </TabsContent>
