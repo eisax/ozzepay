@@ -138,6 +138,8 @@ const Payment = () => {
                                     <span>DStv</span>
                                 </Button>
                             </div>
+
+                            
                         </TabsContent>
                     </Tabs>
                 </CardContent>
