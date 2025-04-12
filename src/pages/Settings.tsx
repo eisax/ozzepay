@@ -396,7 +396,9 @@ const Settings = () => {
                     </Card>
 
                     <Card>
-                        <CardHeader></CardHeader>
+                        <CardHeader>
+                        <CardTitle>Notification Types</CardTitle>
+                        </CardHeader>
                     </Card>
                 </TabsContent>
             </Tabs>
