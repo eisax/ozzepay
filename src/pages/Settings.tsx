@@ -317,7 +317,9 @@ const Settings = () => {
                     </Card>
 
                     <Card>
-                        <CardHeader></CardHeader>
+                        <CardHeader>
+                            <CardTitle>Two-Factor Authentication</CardTitle>
+                        </CardHeader>
                     </Card>
                 </TabsContent>
             </Tabs>
