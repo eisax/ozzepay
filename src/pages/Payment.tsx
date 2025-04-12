@@ -40,6 +40,8 @@ const Payment = () => {
             });
             return;
         }
+
+        const wallet = wallets.find((w) => w.id === selectedWallet);
     }
 }
 
