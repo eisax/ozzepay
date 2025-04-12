@@ -3,7 +3,7 @@ import { useToast } from "@/hooks/use-toast";
 const Request = () => {
 
     const { toast } = useToast();
-
+    const [linkCopied, setLinkCopied] = useState(false);
 
     return (
         <div className="space-y-6">
