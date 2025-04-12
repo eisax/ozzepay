@@ -37,6 +37,7 @@ const Settings = () => {
     const hasMinLength = newPassword.length >= 8;
     const hasUppercase = /[A-Z]/.test(newPassword);
     const hasNumber = /\d/.test(newPassword);
+    const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/.test(newPassword);
 
 
     return (
