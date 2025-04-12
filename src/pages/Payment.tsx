@@ -66,6 +66,8 @@ const Payment = () => {
             setSelectedWallet("");
         }, 1500);
     }
+
+    return ();
 }
 
 export default Payment;
