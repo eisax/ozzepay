@@ -445,6 +445,14 @@ const Profile = () => {
 
                                             <div className="space-y-2">
                                                 <Label htmlFor="currency">Default Currency</Label>
+                                                <select
+                                                    id="currency"
+                                                    className="w-full h-10 px-3 py-2 bg-background border border-input rounded-md"
+                                                >
+                                                    <option value="usd">USD (US Dollar)</option>
+                                                    <option value="zwl">ZWL (Zimbabwean Dollar)</option>
+                                                    <option value="zar">ZAR (South African Rand)</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
