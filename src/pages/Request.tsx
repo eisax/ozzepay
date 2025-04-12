@@ -38,7 +38,9 @@ const Request = () => {
                     <CardDescription>Create a payment request to share with others</CardDescription>
                 </CardHeader>
 
-                <CardContent></CardContent>
+                <CardContent>
+                    <div className="flex justify-center mb-6"></div>
+                </CardContent>
             </Card>
         </div>
     );
