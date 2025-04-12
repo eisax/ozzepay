@@ -264,7 +264,8 @@ const Settings = () => {
                                 </div>
 
                                 <div className="bg-muted/50 p-3 rounded-md space-y-2 mt-2">
-                                    <p className="text-sm font-medium">Password Requirements:</p></div>
+                                    <p className="text-sm font-medium">Password Requirements:</p>
+                                </div>
                             </form>
                         </CardContent>
                     </Card>
