@@ -299,6 +299,14 @@ const Settings = () => {
                                             )}
                                             At least one special character
                                         </li>
+                                        <li className="text-xs flex items-center mt-2">
+                                            {passwordsMatch ? (
+                                                <Check size={14} className="text-green-500 mr-1" />
+                                            ) : (
+                                                <X size={14} className="text-red-500 mr-1" />
+                                            )}
+                                            Passwords match
+                                        </li>
                                     </ul>
                                 </div>
                             </form>
