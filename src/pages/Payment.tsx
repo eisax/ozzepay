@@ -331,14 +331,18 @@ const Payment = () => {
                                     <Wifi className="h-6 w-6 text-blue-500" />
                                     <span>ZOL Fibroniks</span>
                                 </Button>
-                                
+
+                                <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
+                                    <Wifi className="h-6 w-6 text-orange-500" />
+                                    <span>Liquid Home</span>
+                                </Button>
 
                                 <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
                                     <Wifi className="h-6 w-6 text-green-500" />
                                     <span>TelOne</span>
                                 </Button>
 
-                                
+
 
                                 <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
                                     <Wifi className="h-6 w-6 text-red-500" />
