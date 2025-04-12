@@ -34,6 +34,8 @@ const Settings = () => {
     const [newPassword, setNewPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
 
+    const hasMinLength = newPassword.length >= 8;
+
 
     return (
         <div className="space-y-6">
