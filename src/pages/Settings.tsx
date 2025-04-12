@@ -60,6 +60,15 @@ const Settings = () => {
             });
             return;
         }
+
+        if (!(hasMinLength && hasUppercase && hasNumber && hasSpecialChar)) {
+            toast({
+                title: "Password too weak",
+                description: "Please ensure your password meets all requirements",
+                variant: "destructive",
+            });
+            return;
+        }
     }
 
 
