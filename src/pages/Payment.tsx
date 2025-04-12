@@ -426,7 +426,9 @@ const Payment = () => {
                         </TabsContent>
 
                         <TabsContent value="other" className="space-y-4">
-                            <form onSubmit={handlePayment} className="space-y-4"></form>
+                            <form onSubmit={handlePayment} className="space-y-4">
+                                <div className="space-y-2"></div>
+                            </form>
                         </TabsContent>
                     </Tabs>
                 </CardContent>
