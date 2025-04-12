@@ -92,7 +92,12 @@ const Payment = () => {
 
                 <CardContent>
                     <Tabs defaultValue="utilities" className="w-full">
-                        <TabsList className="grid grid-cols-4 mb-6"></TabsList>
+                        <TabsList className="grid grid-cols-4 mb-6">
+                            <TabsTrigger value="utilities">
+                                <Zap size={16} className="mr-2" />
+                                Utilities
+                            </TabsTrigger>
+                        </TabsList>
                     </Tabs>
                 </CardContent>
             </Card>
