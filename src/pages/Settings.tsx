@@ -120,7 +120,7 @@ const Settings = () => {
                 <TabsContent value="security" className="mt-6 space-y-6">
                     <Card>
                         <CardHeader>
-                        <CardTitle></CardTitle>
+                            <CardTitle>Change Password</CardTitle>
                         </CardHeader>
                     </Card>
                 </TabsContent>
