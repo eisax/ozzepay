@@ -374,6 +374,7 @@ const Settings = () => {
                                     <div className="font-medium">Push Notifications</div>
                                     <div className="text-sm text-muted-foreground">Receive notifications on your device</div>
                                 </div>
+                                <Switch defaultChecked />
                             </div>
                         </CardContent>
                     </Card>
