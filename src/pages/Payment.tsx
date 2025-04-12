@@ -148,7 +148,9 @@ const Payment = () => {
                                         <Input id="meter" placeholder="Enter meter or account number" />
                                     </div>
 
-                                    <div className="space-y-2"></div>
+                                    <div className="space-y-2">
+                                        <Label htmlFor="provider">Service Provider</Label>
+                                    </div>
                                 </div>
                             </form>
                         </TabsContent>
