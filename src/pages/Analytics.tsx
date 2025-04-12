@@ -197,7 +197,16 @@ const Analytics = () => {
 
                     <CardContent>
                         <div className="h-80">
-                            <ResponsiveContainer width="100%" height="100%"></ResponsiveContainer>
+                            <ResponsiveContainer width="100%" height="100%">
+                                <BarChart data={getSpendingData()} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
+                                    <CartesianGrid strokeDasharray="3 3" />
+                                    <XAxis dataKey="day" />
+                                    <YAxis tickFormatter={(value) => `$${value}`} />
+                                    <Tooltip content={<CustomTooltip />} />
+                                    <Legend />
+                                    <Bar dataKey="amount" name="Spending" fill="#3B82F6" radius={[4, 4, 0, 0]} />
+                                </BarChart>
+                            </ResponsiveContainer>
                         </div>
                     </CardContent>
                 </Card>
