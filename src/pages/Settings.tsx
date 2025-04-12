@@ -342,7 +342,11 @@ const Settings = () => {
                         <CardContent>
                             <div className="space-y-4">
                                 <div className="flex items-center justify-between">
-
+                                    <div>
+                                        <div className="font-medium">Chrome on Windows</div>
+                                        <div className="text-sm text-muted-foreground">Harare, Zimbabwe • Current session</div>
+                                    </div>
+                                    <Button variant="outline" size="sm">Current</Button>
                                 </div>
                             </div>
                         </CardContent>
