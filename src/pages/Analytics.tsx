@@ -157,6 +157,15 @@ const Analytics = () => {
                             Most spent category
                         </CardDescription>
                     </CardHeader>
+
+                    <CardContent>
+            <div className="text-3xl font-bold text-primary">
+              {categoryData.sort((a, b) => b.value - a.value)[0].name}
+            </div>
+            <div className="text-sm text-muted-foreground">
+              {formatCurrency(categoryData.sort((a, b) => b.value - a.value)[0].value)}
+            </div>
+          </CardContent>
                 </Card>
             </div>
         </div>
