@@ -13,7 +13,9 @@ const Analytics = () => {
         { day: "Sun", amount: 55.10 },
     ];
 
-    return ()
+    return (
+        
+    );
 }
 
 export default Analytics;
