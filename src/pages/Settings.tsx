@@ -42,6 +42,15 @@ const Settings = () => {
 
     const handleChangePassword = (e: React.FormEvent) => {
         e.preventDefault();
+
+        if (!currentPassword || !newPassword || !confirmPassword) {
+            toast({
+                title: "Missing information",
+                description: "Please fill in all password fields",
+                variant: "destructive",
+            });
+            return;
+        }
     }
 
 
