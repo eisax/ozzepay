@@ -22,7 +22,9 @@ const Settings = () => {
                         Account
                     </TabsTrigger>
 
-                    <TabsTrigger value="security"></TabsTrigger>
+                    <TabsTrigger value="security">
+                        <Shield size={16} className="mr-2" />
+                    </TabsTrigger>
                 </TabsList>
             </Tabs>
         </div>
