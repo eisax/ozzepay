@@ -134,7 +134,9 @@ const Analytics = () => {
                     </CardContent>
                 </Card>
 
-                <Card></Card>
+                <Card>
+                    <CardHeader className="pb-2"></CardHeader>
+                </Card>
             </div>
         </div>
     );
