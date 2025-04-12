@@ -479,6 +479,11 @@ const Settings = () => {
                                 </div>
                                 <Button variant="outline" size="sm">Manage</Button>
                             </div>
+
+                            <Button className="w-full" variant="outline">
+                                <CreditCard size={16} className="mr-2" />
+                                Add New Payment Method
+                            </Button>
                         </CardContent>
                     </Card>
                 </TabsContent>
