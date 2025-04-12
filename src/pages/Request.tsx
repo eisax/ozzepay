@@ -64,6 +64,7 @@ const Request = () => {
 
                         <div className="space-y-2">
                             <Label htmlFor="reason">Reason for request</Label>
+                            <Textarea id="reason" placeholder="What is this payment for?" />
                         </div>
                     </form>
                 </CardContent>
