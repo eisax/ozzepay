@@ -162,6 +162,12 @@ const Payment = () => {
                                             <SelectTrigger id="provider">
                                                 <SelectValue placeholder="Select provider" />
                                             </SelectTrigger>
+
+                                            <SelectContent>
+                                                <SelectItem value="zesa">ZESA Electricity</SelectItem>
+                                                <SelectItem value="city">Harare City Council</SelectItem>
+                                                <SelectItem value="dstv">DStv</SelectItem>
+                                            </SelectContent>
                                         </Select>
                                     </div>
                                 </div>
