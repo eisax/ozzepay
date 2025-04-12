@@ -362,6 +362,8 @@ const Payment = () => {
                                             <SelectTrigger id="package">
                                                 <SelectValue placeholder="Select package" />
                                             </SelectTrigger>
+
+                                            <SelectContent></SelectContent>
                                         </Select>
                                     </div>
                                 </div>
