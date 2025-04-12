@@ -51,6 +51,8 @@ const Settings = () => {
                             <CardTitle>Profile Information</CardTitle>
                             <CardDescription>Update your personal details</CardDescription>
                         </CardHeader>
+
+                        <CardContent className="space-y-4"></CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
