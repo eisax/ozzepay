@@ -153,6 +153,9 @@ const Analytics = () => {
                 <Card>
                     <CardHeader className="pb-2">
                         <CardTitle className="text-xl">Top Category</CardTitle>
+                        <CardDescription>
+                            Most spent category
+                        </CardDescription>
                     </CardHeader>
                 </Card>
             </div>
