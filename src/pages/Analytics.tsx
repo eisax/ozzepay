@@ -17,14 +17,14 @@ import {
     ResponsiveContainer,
     PieChart,
     Pie,
-    Cell,
+    Cell
 } from "recharts";
 import {
     Card,
     CardContent,
     CardDescription,
     CardHeader,
-    CardTitle,
+    CardTitle
 } from "@/components/ui/card";
 
 const Analytics = () => {
