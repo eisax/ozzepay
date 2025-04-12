@@ -7,6 +7,19 @@ import {
     SelectValue,
 } from "@/components/ui/select";
 import {
+    BarChart,
+    Bar,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    Legend,
+    ResponsiveContainer,
+    PieChart,
+    Pie,
+    Cell,
+  } from "recharts";
+import {
     Card,
     CardContent,
     CardDescription,
