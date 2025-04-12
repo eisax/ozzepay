@@ -81,6 +81,8 @@ const Settings = () => {
                             <Button>Save Changes</Button>
                         </CardContent>
                     </Card>
+
+                    <Card></Card>
                 </TabsContent>
             </Tabs>
         </div>
