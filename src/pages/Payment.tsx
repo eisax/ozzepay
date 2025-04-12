@@ -200,6 +200,8 @@ const Payment = () => {
 
                                     <div className="space-y-2">
                                         <Label htmlFor="payment-amount">Amount (USD)</Label>
+
+                                        <div className="relative"></div>
                                     </div>
                                 </div>
                             </form>
