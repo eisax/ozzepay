@@ -6,7 +6,9 @@ const Settings = () => {
             <h1 className="text-2xl font-bold">Settings</h1>
 
             <Tabs defaultValue="account" className="w-full">
-                <TabsList className="grid w-full grid-cols-4"></TabsList>
+                <TabsList className="grid w-full grid-cols-4">
+                <TabsTrigger value="account"></TabsTrigger>
+                </TabsList>
             </Tabs>
         </div>
     );
