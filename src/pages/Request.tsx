@@ -82,6 +82,9 @@ const Request = () => {
                                 {linkCopied ? <Check size={16} /> : <Copy size={16} />}
                             </Button>
                         </div>
+                        <p className="text-xs text-muted-foreground mt-2">
+                            Share this link to request payment from anyone
+                        </p>
                     </div>
                 </CardContent>
             </Card>
