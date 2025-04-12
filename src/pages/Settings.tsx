@@ -12,16 +12,7 @@ import {
 import { Switch } from "@/components/ui/switch";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { 
-  CreditCard, 
-  Bell, 
-  Shield, 
-  User, 
-  Eye, 
-  EyeOff,
-  Check,
-  X
-} from "lucide-react";
+
 import {
     Card,
     CardContent,
