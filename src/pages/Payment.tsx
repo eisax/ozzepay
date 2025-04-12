@@ -31,6 +31,15 @@ const Payment = () => {
         }
 
         const amountNum = parseFloat(amount);
+
+        if (isNaN(amountNum) || amountNum <= 0) {
+            toast({
+                title: "Invalid amount",
+                description: "Please enter a valid amount",
+                variant: "destructive",
+            });
+            return;
+        }
     }
 }
 
