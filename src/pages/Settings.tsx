@@ -439,7 +439,9 @@ const Settings = () => {
 
                 <TabsContent value="payment" className="mt-6 space-y-6">
                     <Card>
-                        <CardHeader></CardHeader>
+                        <CardHeader>
+                            <CardTitle>Connected Wallets</CardTitle>
+                        </CardHeader>
                     </Card>
                 </TabsContent>
             </Tabs>
