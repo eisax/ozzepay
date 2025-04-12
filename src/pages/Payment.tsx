@@ -152,7 +152,9 @@ const Payment = () => {
                                         <Label htmlFor="provider">Service Provider</Label>
 
                                         <Select>
-                                        <SelectTrigger id="provider"></SelectTrigger>
+                                            <SelectTrigger id="provider">
+                                                <SelectValue placeholder="Select provider" />
+                                            </SelectTrigger>
                                         </Select>
                                     </div>
                                 </div>
