@@ -143,7 +143,7 @@ const Payment = () => {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <div className="space-y-2">
                                         <Label htmlFor="meter">Meter/Account Number</Label>
-                                        
+                                        <Input id="meter" placeholder="Enter meter or account number" />
                                     </div>
                                 </div>
                             </form>
