@@ -38,7 +38,9 @@ const Settings = () => {
                     </TabsTrigger>
                 </TabsList>
 
-                <TabsContent value="account" className="mt-6 space-y-6"></TabsContent>
+                <TabsContent value="account" className="mt-6 space-y-6">
+                    <Card></Card>
+                </TabsContent>
             </Tabs>
         </div>
     );
