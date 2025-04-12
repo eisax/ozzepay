@@ -31,6 +31,8 @@ const Settings = () => {
     const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
     const [currentPassword, setCurrentPassword] = useState("");
+    const [newPassword, setNewPassword] = useState("");
+    const [confirmPassword, setConfirmPassword] = useState("");
 
 
     return (
