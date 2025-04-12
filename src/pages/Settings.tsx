@@ -292,13 +292,13 @@ const Settings = () => {
                                             At least one number
                                         </li>
                                         <li className="text-xs flex items-center">
-                      {hasSpecialChar ? (
-                        <Check size={14} className="text-green-500 mr-1" />
-                      ) : (
-                        <X size={14} className="text-red-500 mr-1" />
-                      )}
-                      At least one special character
-                    </li>
+                                            {hasSpecialChar ? (
+                                                <Check size={14} className="text-green-500 mr-1" />
+                                            ) : (
+                                                <X size={14} className="text-red-500 mr-1" />
+                                            )}
+                                            At least one special character
+                                        </li>
                                     </ul>
                                 </div>
                             </form>
