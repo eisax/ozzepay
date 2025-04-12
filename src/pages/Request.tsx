@@ -56,6 +56,7 @@ const Request = () => {
 
                         <div className="space-y-2">
                             <Label htmlFor="amount">Amount (USD)</Label>
+                            <div className="relative"></div>
                         </div>
                     </form>
                 </CardContent>
