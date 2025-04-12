@@ -432,7 +432,9 @@ const Payment = () => {
                                     <Input id="merchant" placeholder="Enter merchant or service name" />
                                 </div>
 
-                                <div className="space-y-2"></div>
+                                <div className="space-y-2">
+                                    <Label htmlFor="reference">Reference Number</Label>
+                                </div>
                             </form>
                         </TabsContent>
                     </Tabs>
