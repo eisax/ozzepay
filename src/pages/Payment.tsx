@@ -83,6 +83,8 @@ const Payment = () => {
                     <CardTitle>Pay Bills & Services</CardTitle>
                     <CardDescription>Make quick payments to various service providers</CardDescription>
                 </CardHeader>
+
+                <CardContent></CardContent>
             </Card>
         </div>
     );
