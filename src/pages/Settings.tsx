@@ -69,6 +69,8 @@ const Settings = () => {
             });
             return;
         }
+
+        setIsLoading(true);
     }
 
 
