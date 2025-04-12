@@ -31,6 +31,8 @@ const Settings = () => {
                         <Bell size={16} className="mr-2" />
                         Notifications
                     </TabsTrigger>
+
+                    <TabsTrigger value="payment"></TabsTrigger>
                 </TabsList>
             </Tabs>
         </div>
