@@ -115,9 +115,9 @@ const Payment = () => {
                                 Internet
                             </TabsTrigger>
                             <TabsTrigger value="other">
-                <CreditCard size={16} className="mr-2" />
-                Other
-              </TabsTrigger>
+                                <CreditCard size={16} className="mr-2" />
+                                Other
+                            </TabsTrigger>
                         </TabsList>
                     </Tabs>
                 </CardContent>
