@@ -254,6 +254,8 @@ const Payment = () => {
                                         <Label htmlFor="phone">Phone Number</Label>
                                         <Input id="phone" placeholder="Enter phone number" />
                                     </div>
+
+                                    <div className="space-y-2"></div>
                                 </div>
                             </form>
                         </TabsContent>
