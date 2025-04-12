@@ -348,6 +348,14 @@ const Settings = () => {
                                     </div>
                                     <Button variant="outline" size="sm">Current</Button>
                                 </div>
+
+                                <div className="flex items-center justify-between">
+                                    <div>
+                                        <div className="font-medium">Safari on iPhone</div>
+                                        <div className="text-sm text-muted-foreground">Bulawayo, Zimbabwe • 2 days ago</div>
+                                    </div>
+                                    <Button variant="outline" size="sm">Revoke</Button>
+                                </div>
                             </div>
                         </CardContent>
                     </Card>
