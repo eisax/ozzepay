@@ -326,7 +326,12 @@ const Profile = () => {
                                     <div className="space-y-4">
                                         <h3 className="font-medium">Push Notifications</h3>
 
-                                        <div className="space-y-3"></div>
+                                        <div className="space-y-3">
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="push-all">All transactions</Label>
+                                                <Switch id="push-all" defaultChecked />
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </TabsContent>
