@@ -325,7 +325,9 @@ const Payment = () => {
                             </form>
                         </TabsContent>
 
-                        <TabsContent value="internet" className="space-y-6"></TabsContent>
+                        <TabsContent value="internet" className="space-y-6">
+                            
+                        </TabsContent>
                     </Tabs>
                 </CardContent>
             </Card>
