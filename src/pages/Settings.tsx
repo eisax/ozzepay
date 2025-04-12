@@ -88,7 +88,9 @@ const Settings = () => {
                             <CardDescription>Manage your account settings</CardDescription>
                         </CardHeader>
 
-                        <CardContent className="space-y-4"></CardContent>
+                        <CardContent className="space-y-4">
+                            <div className="flex items-center justify-between"></div>
+                        </CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
