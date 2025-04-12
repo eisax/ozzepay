@@ -387,7 +387,14 @@ const Profile = () => {
                                     <div className="space-y-4 pt-4 border-t">
                                         <h3 className="font-medium">Default Wallet</h3>
 
-                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3"></div>
+                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+                                            <div className="rounded-lg border border-wallet-eco bg-wallet-eco/10 p-3 text-center hover:border-wallet-eco/70 cursor-pointer transition-colors">
+                                                <div className="w-10 h-10 rounded-full bg-wallet-eco mx-auto flex items-center justify-center text-white">
+                                                    E
+                                                </div>
+                                                <p className="text-sm font-medium mt-1">Ecocash</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </TabsContent>
