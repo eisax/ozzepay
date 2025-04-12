@@ -12,6 +12,8 @@ const Analytics = () => {
         { day: "Sat", amount: 95.40 },
         { day: "Sun", amount: 55.10 },
     ];
+
+    return ()
 }
 
 export default Analytics;
