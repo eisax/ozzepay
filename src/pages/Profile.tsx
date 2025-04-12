@@ -373,10 +373,14 @@ const Profile = () => {
                                         <h3 className="font-medium">Display Preferences</h3>
 
                                         <div className="space-y-3">
-                                        <div className="flex items-center justify-between">
-                        <Label htmlFor="dark-mode">Dark Mode</Label>
-                        <Switch id="dark-mode" />
-                      </div>
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="dark-mode">Dark Mode</Label>
+                                                <Switch id="dark-mode" />
+                                            </div>
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="hide-balances">Hide balances by default</Label>
+                                                <Switch id="hide-balances" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
