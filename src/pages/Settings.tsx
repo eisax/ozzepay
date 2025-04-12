@@ -487,7 +487,9 @@ const Settings = () => {
                         </CardContent>
                     </Card>
 
-                    <Card></Card>
+                    <Card>
+                        <CardHeader></CardHeader>
+                    </Card>
                 </TabsContent>
             </Tabs>
         </div>
