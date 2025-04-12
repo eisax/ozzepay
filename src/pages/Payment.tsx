@@ -16,9 +16,11 @@ const Payment = () => {
         { id: "one", name: "OneMoney", balance: 85.50 },
         { id: "omari", name: "Omari", balance: 120.30 },
         { id: "zim", name: "Zimswitch", balance: 200.00 },
-      ];
+    ];
 
-      const handlePayment = (e: React.FormEvent) => {}
+    const handlePayment = (e: React.FormEvent) => {
+        e.preventDefault();
+    }
 }
 
 export default Payment;
