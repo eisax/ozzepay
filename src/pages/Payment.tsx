@@ -359,7 +359,9 @@ const Payment = () => {
                                         <Label htmlFor="package">Package</Label>
 
                                         <Select>
-                                            <SelectTrigger id="package"></SelectTrigger>
+                                            <SelectTrigger id="package">
+                                                <SelectValue placeholder="Select package" />
+                                            </SelectTrigger>
                                         </Select>
                                     </div>
                                 </div>
