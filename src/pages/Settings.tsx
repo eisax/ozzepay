@@ -214,6 +214,8 @@ const Settings = () => {
                                         </Button>
                                     </div>
                                 </div>
+
+                                <div className="space-y-2"></div>
                             </form>
                         </CardContent>
                     </Card>
