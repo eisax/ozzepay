@@ -346,6 +346,8 @@ const Profile = () => {
 
                                     <div className="space-y-4 pt-4 border-t">
                                         <h3 className="font-medium">Email Notifications</h3>
+
+                                        <div className="space-y-3"></div>
                                     </div>
                                 </div>
                             </TabsContent>
