@@ -242,7 +242,15 @@ const Settings = () => {
                                 <div className="space-y-2">
                                     <Label htmlFor="confirmPassword">Confirm New Password</Label>
 
-                                    <div className="relative"></div>
+                                    <div className="relative">
+                                    <Input 
+                      id="confirmPassword" 
+                      type={showConfirmPassword ? "text" : "password"} 
+                      placeholder="Confirm your new password"
+                      value={confirmPassword}
+                      onChange={(e) => setConfirmPassword(e.target.value)}
+                    />
+                                    </div>
                                 </div>
                             </form>
                         </CardContent>
