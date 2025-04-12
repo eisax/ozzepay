@@ -119,6 +119,8 @@ const Payment = () => {
                                 Other
                             </TabsTrigger>
                         </TabsList>
+
+                        <TabsContent value="utilities" className="space-y-6"></TabsContent>
                     </Tabs>
                 </CardContent>
             </Card>
