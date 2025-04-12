@@ -333,7 +333,7 @@ const Payment = () => {
                                 </Button>
 
                                 <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
-                                    
+                                    <Wifi className="h-6 w-6 text-green-500" />
                                 </Button>
                             </div>
                         </TabsContent>
