@@ -1,4 +1,14 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+    CreditCard,
+    Bell,
+    Shield,
+    User,
+    Eye,
+    EyeOff,
+    Check,
+    X
+} from "lucide-react";
 
 const Settings = () => {
     return (
