@@ -323,7 +323,9 @@ const Profile = () => {
 
                             <TabsContent value="notifications">
                                 <div className="space-y-6">
-                                    <div className="space-y-4"></div>
+                                    <div className="space-y-4">
+                                        <h3 className="font-medium">Push Notifications</h3>
+                                    </div>
                                 </div>
                             </TabsContent>
                         </Tabs>
