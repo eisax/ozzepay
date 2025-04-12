@@ -283,6 +283,14 @@ const Settings = () => {
                                             )}
                                             At least one uppercase letter
                                         </li>
+                                        <li className="text-xs flex items-center">
+                      {hasNumber ? (
+                        <Check size={14} className="text-green-500 mr-1" />
+                      ) : (
+                        <X size={14} className="text-red-500 mr-1" />
+                      )}
+                      At least one number
+                    </li>
                                     </ul>
                                 </div>
                             </form>
