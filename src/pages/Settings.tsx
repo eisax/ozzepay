@@ -9,6 +9,7 @@ import {
     Check,
     X
 } from "lucide-react";
+import { Switch } from "@/components/ui/switch";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
