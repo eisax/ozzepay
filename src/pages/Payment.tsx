@@ -124,7 +124,8 @@ const Payment = () => {
                         <TabsContent value="utilities" className="space-y-6">
                             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                                 <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
-                                
+                                    <Zap className="h-6 w-6 text-amber-500" />
+                                    <span>ZESA Electricity</span>
                                 </Button>
                             </div>
                         </TabsContent>
