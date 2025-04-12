@@ -270,7 +270,9 @@ const Profile = () => {
 
                             <TabsContent value="security">
                                 <div className="space-y-6">
-                                    <div className="space-y-4"></div>
+                                    <div className="space-y-4">
+                                        <h3 className="font-medium">Two-Factor Authentication</h3>
+                                    </div>
                                 </div>
                             </TabsContent>
                         </Tabs>
