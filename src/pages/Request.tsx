@@ -33,7 +33,7 @@ const Request = () => {
             <h1 className="text-2xl font-bold">Request Money</h1>
 
             <Card className="max-w-md mx-auto">
-            <CardHeader>
+                <CardHeader></CardHeader>
             </Card>
         </div>
     );
