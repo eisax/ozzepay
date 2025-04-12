@@ -97,7 +97,9 @@ const Settings = () => {
                                 <Button variant="outline">USD $</Button>
                             </div>
 
-                            <div className="flex items-center justify-between"></div>
+                            <div className="flex items-center justify-between">
+                                <div></div>
+                            </div>
                         </CardContent>
                     </Card>
                 </TabsContent>
