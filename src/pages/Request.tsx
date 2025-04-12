@@ -76,7 +76,7 @@ const Request = () => {
                         <h3 className="font-medium text-sm mb-2">Payment Link</h3>
                         <div className="flex items-center gap-2">
                             <div className="flex-1 border rounded p-2 bg-background text-xs overflow-hidden text-ellipsis">
-                            https://walletwave.app/pay/req123456
+                            https://walletwave.app/req/req123456
                             </div>
                         </div>
                     </div>
