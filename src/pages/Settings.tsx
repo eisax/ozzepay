@@ -407,6 +407,7 @@ const Settings = () => {
                                     <div className="font-medium">Transaction Alerts</div>
                                     <div className="text-sm text-muted-foreground">Get notified about all transactions</div>
                                 </div>
+                                <Switch defaultChecked />
                             </div>
                         </CardContent>
                     </Card>
