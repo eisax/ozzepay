@@ -274,6 +274,14 @@ const Payment = () => {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <div className="space-y-2">
                                         <Label htmlFor="mobile-wallet">From Wallet</Label>
+
+                                        <Select
+                                            value={selectedWallet}
+                                            onValueChange={setSelectedWallet}
+                                        >
+
+                                            
+                                        </Select>
                                     </div>
                                 </div>
                             </form>
