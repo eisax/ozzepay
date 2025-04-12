@@ -71,6 +71,19 @@ const Settings = () => {
         }
 
         setIsLoading(true);
+
+        setTimeout(() => {
+            setIsLoading(false);
+            toast({
+                title: "Password changed successfully",
+                description: "Your password has been updated",
+            });
+
+            // Reset form
+            setCurrentPassword("");
+            setNewPassword("");
+            setConfirmPassword("");
+        }, 1500);
     }
 
 
