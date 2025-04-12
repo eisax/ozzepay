@@ -85,6 +85,7 @@ const Settings = () => {
                     <Card>
                         <CardHeader>
                             <CardTitle>Account Preferences</CardTitle>
+                            <CardDescription>Manage your account settings</CardDescription>
                         </CardHeader>
                     </Card>
                 </TabsContent>
