@@ -386,10 +386,11 @@ const Settings = () => {
                             </div>
 
                             <div className="flex items-center justify-between">
-                            <div>
-                  <div className="font-medium">SMS Notifications</div>
-                  <div className="text-sm text-muted-foreground">Receive notifications via SMS</div>
-                </div>
+                                <div>
+                                    <div className="font-medium">SMS Notifications</div>
+                                    <div className="text-sm text-muted-foreground">Receive notifications via SMS</div>
+                                </div>
+                                <Switch />
                             </div>
                         </CardContent>
                     </Card>
