@@ -225,7 +225,9 @@ const Payment = () => {
                         </TabsContent>
 
 
-                        <TabsContent value="mobile" className="space-y-6"></TabsContent>
+                        <TabsContent value="mobile" className="space-y-6">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3"></div>
+                        </TabsContent>
                     </Tabs>
                 </CardContent>
             </Card>
