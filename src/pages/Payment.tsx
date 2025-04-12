@@ -350,7 +350,9 @@ const Payment = () => {
 
                             <form onSubmit={handlePayment} className="space-y-4 pt-4 border-t">
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div className="space-y-2"></div>
+                                    <div className="space-y-2">
+                                        <Label htmlFor="account">Account Number</Label>
+                                    </div>
                                 </div>
                             </form>
                         </TabsContent>
