@@ -49,6 +49,7 @@ const Settings = () => {
                     <Card>
                         <CardHeader>
                             <CardTitle>Profile Information</CardTitle>
+                            <CardDescription>Update your personal details</CardDescription>
                         </CardHeader>
                     </Card>
                 </TabsContent>
