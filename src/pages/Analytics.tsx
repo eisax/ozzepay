@@ -266,6 +266,8 @@ const Analytics = () => {
                         </Tabs>
                     </CardContent>
                 </Card>
+
+                <Card></Card>
             </div>
         </div>
     );
