@@ -352,6 +352,11 @@ const Profile = () => {
                                                 <Label htmlFor="email-summary">Weekly summary</Label>
                                                 <Switch id="email-summary" defaultChecked />
                                             </div>
+
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="email-security">Security alerts</Label>
+                                                <Switch id="email-security" defaultChecked />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
