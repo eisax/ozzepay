@@ -70,6 +70,18 @@ const Analytics = () => {
 
     const totalSpending = getSpendingData().reduce((sum, item) => sum + item.amount, 0);
 
+    const CustomTooltip = ({ active, payload, label }: any) => {
+        if (active && payload && payload.length) {
+          return (
+            <div className="bg-background p-2 border rounded-md shadow-sm">
+              <p className="font-medium">{`${label}`}</p>
+              <p className="text-primary">{`Amount: ${formatCurrency(payload[0].value)}`}</p>
+            </div>
+          );
+        }
+        return null;
+      };
+
     return (
         <div className="space-y-6"></div>
     );
