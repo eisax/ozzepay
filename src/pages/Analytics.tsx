@@ -173,6 +173,13 @@ const Analytics = () => {
                 <Card className="col-span-1 lg:col-span-2">
                     <CardHeader>
                         <CardTitle>Spending Overview</CardTitle>
+                        <CardDescription>
+                            {period === "week"
+                                ? "Your daily spending for this week"
+                                : period === "month"
+                                    ? "Your weekly spending for this month"
+                                    : "Your monthly spending for this year"}
+                        </CardDescription>
                     </CardHeader>
                 </Card>
             </div>
