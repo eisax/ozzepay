@@ -302,7 +302,11 @@ const Profile = () => {
                                         <h3 className="font-medium">Transaction Security</h3>
 
                                         <div className="flex items-center justify-between p-4 border rounded-lg">
-                                            <div className="flex items-center gap-3"></div>
+                                            <div className="flex items-center gap-3">
+                                                <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
+                                                    <CreditCard className="text-primary" />
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
