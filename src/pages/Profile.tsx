@@ -425,7 +425,9 @@ const Profile = () => {
                                         </div>
                                     </div>
 
-                                    <div className="space-y-4 pt-4 border-t"></div>
+                                    <div className="space-y-4 pt-4 border-t">
+                                        <h3 className="font-medium">Language and Currency</h3>
+                                    </div>
                                 </div>
                             </TabsContent>
                         </Tabs>
