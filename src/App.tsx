@@ -21,6 +21,7 @@ import Request from "./pages/Request";
 import Profile from "./pages/Profile";
 import Payment from "./pages/Payment";
 import Analytics from "./pages/Analytics";
+import Settings from "./pages/Settings";
 
 const queryClient = new QueryClient();
 
