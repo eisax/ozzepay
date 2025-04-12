@@ -181,6 +181,8 @@ const Analytics = () => {
                                     : "Your monthly spending for this year"}
                         </CardDescription>
                     </CardHeader>
+
+                    <CardContent></CardContent>
                 </Card>
             </div>
         </div>
