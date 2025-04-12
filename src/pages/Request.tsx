@@ -71,6 +71,8 @@ const Request = () => {
 
                         <Button type="submit" className="w-full">Send Request</Button>
                     </form>
+
+                    <div className="mt-6 p-4 bg-muted rounded-lg"></div>
                 </CardContent>
             </Card>
         </div>
