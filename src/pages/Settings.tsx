@@ -24,6 +24,7 @@ const Settings = () => {
 
                     <TabsTrigger value="security">
                         <Shield size={16} className="mr-2" />
+                        Security
                     </TabsTrigger>
                 </TabsList>
             </Tabs>
