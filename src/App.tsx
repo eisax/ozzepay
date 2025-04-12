@@ -19,6 +19,9 @@ import Internet from "./pages/Internet";
 import Electricity from "./pages/Electricity";
 import Request from "./pages/Request";
 import Profile from "./pages/Profile";
+import Payment from "./pages/Payment";
+import Analytics from "./pages/Analytics";
+import Settings from "./pages/Settings";
 
 const queryClient = new QueryClient();
 
@@ -46,6 +49,9 @@ const App = () => (
               <Route path="/electricity" element={<Electricity />} />
               <Route path="/request" element={<Request />} />
               <Route path="/profile" element={<Profile />} />
+              <Route path="/payment" element={<Payment />} />
+              <Route path="/analytics" element={<Analytics />} />
+              <Route path="/settings" element={<Settings />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -5,7 +5,7 @@ import {
     CardHeader,
     CardTitle,
 } from "@/components/ui/card";
-
+import { Switch } from "@/components/ui/switch";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -266,6 +266,197 @@ const Profile = () => {
                                         </div>
                                     </div>
                                 )}
+                            </TabsContent>
+
+                            <TabsContent value="security">
+                                <div className="space-y-6">
+                                    <div className="space-y-4">
+                                        <h3 className="font-medium">Two-Factor Authentication</h3>
+                                        <div className="flex items-center justify-between p-4 border rounded-lg">
+                                            <div className="flex items-center gap-3">
+                                                <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
+                                                    <Fingerprint className="text-primary" />
+                                                </div>
+                                                <div>
+                                                    <p className="font-medium">Biometric Authentication</p>
+                                                    <p className="text-sm text-muted-foreground">Use fingerprint or face recognition to login</p>
+                                                </div>
+                                            </div>
+                                            <Switch />
+                                        </div>
+
+                                        <div className="flex items-center justify-between p-4 border rounded-lg">
+                                            <div className="flex items-center gap-3">
+                                                <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
+                                                    <Shield className="text-primary" />
+                                                </div>
+                                                <div>
+                                                    <p className="font-medium">SMS Verification</p>
+                                                    <p className="text-sm text-muted-foreground">Receive a code via SMS for sensitive actions</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="space-y-4 pt-4 border-t">
+                                        <h3 className="font-medium">Transaction Security</h3>
+
+                                        <div className="flex items-center justify-between p-4 border rounded-lg">
+                                            <div className="flex items-center gap-3">
+                                                <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
+                                                    <CreditCard className="text-primary" />
+                                                </div>
+                                                <div>
+                                                    <p className="font-medium">Require PIN for all transactions</p>
+                                                    <p className="text-sm text-muted-foreground">Additional security for payments and transfers</p>
+                                                </div>
+                                            </div>
+                                            <Switch defaultChecked />
+                                        </div>
+                                    </div>
+
+                                    <div className="pt-4 flex justify-end">
+                                        <Button variant="outline">Change PIN</Button>
+                                    </div>
+                                </div>
+                            </TabsContent>
+
+                            <TabsContent value="notifications">
+                                <div className="space-y-6">
+                                    <div className="space-y-4">
+                                        <h3 className="font-medium">Push Notifications</h3>
+
+                                        <div className="space-y-3">
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="push-all">All transactions</Label>
+                                                <Switch id="push-all" defaultChecked />
+                                            </div>
+
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="push-deposits">Deposits only</Label>
+                                                <Switch id="push-deposits" />
+                                            </div>
+
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="push-large">Large transactions</Label>
+                                                <Switch id="push-large" defaultChecked />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="space-y-4 pt-4 border-t">
+                                        <h3 className="font-medium">Email Notifications</h3>
+
+                                        <div className="space-y-3">
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="email-summary">Weekly summary</Label>
+                                                <Switch id="email-summary" defaultChecked />
+                                            </div>
+
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="email-security">Security alerts</Label>
+                                                <Switch id="email-security" defaultChecked />
+                                            </div>
+
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="email-marketing">Marketing and promotions</Label>
+                                                <Switch id="email-marketing" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </TabsContent>
+
+                            <TabsContent value="preferences">
+                                <div className="space-y-6">
+                                    <div className="space-y-4">
+                                        <h3 className="font-medium">Display Preferences</h3>
+
+                                        <div className="space-y-3">
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="dark-mode">Dark Mode</Label>
+                                                <Switch id="dark-mode" />
+                                            </div>
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="hide-balances">Hide balances by default</Label>
+                                                <Switch id="hide-balances" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="space-y-4 pt-4 border-t">
+                                        <h3 className="font-medium">Default Wallet</h3>
+
+                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+                                            <div className="rounded-lg border border-wallet-eco bg-wallet-eco/10 p-3 text-center hover:border-wallet-eco/70 cursor-pointer transition-colors">
+                                                <div className="w-10 h-10 rounded-full bg-wallet-eco mx-auto flex items-center justify-center text-white">
+                                                    E
+                                                </div>
+                                                <p className="text-sm font-medium mt-1">Ecocash</p>
+                                            </div>
+
+                                            <div className="rounded-lg border p-3 text-center hover:border-wallet-inn/70 cursor-pointer transition-colors">
+                                                <div className="w-10 h-10 rounded-full bg-wallet-inn mx-auto flex items-center justify-center text-white">
+                                                    I
+                                                </div>
+                                                <p className="text-sm font-medium mt-1">Innbucks</p>
+                                            </div>
+
+                                            <div className="rounded-lg border p-3 text-center hover:border-wallet-one/70 cursor-pointer transition-colors">
+                                                <div className="w-10 h-10 rounded-full bg-wallet-one mx-auto flex items-center justify-center text-white">
+                                                    O
+                                                </div>
+                                                <p className="text-sm font-medium mt-1">OneMoney</p>
+                                            </div>
+
+                                            <div className="rounded-lg border p-3 text-center hover:border-wallet-omari/70 cursor-pointer transition-colors">
+                                                <div className="w-10 h-10 rounded-full bg-wallet-omari mx-auto flex items-center justify-center text-white">
+                                                    O
+                                                </div>
+                                                <p className="text-sm font-medium mt-1">Omari</p>
+                                            </div>
+
+                                            <div className="rounded-lg border p-3 text-center hover:border-wallet-zim/70 cursor-pointer transition-colors">
+                                                <div className="w-10 h-10 rounded-full bg-wallet-zim mx-auto flex items-center justify-center text-white">
+                                                    Z
+                                                </div>
+                                                <p className="text-sm font-medium mt-1">Zimswitch</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="space-y-4 pt-4 border-t">
+                                        <h3 className="font-medium">Language and Currency</h3>
+
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                                            <div className="space-y-2">
+                                                <Label htmlFor="language">Language</Label>
+
+                                                <select
+                                                    id="language"
+                                                    className="w-full h-10 px-3 py-2 bg-background border border-input rounded-md"
+                                                >
+                                                    <option value="en">English</option>
+                                                    <option value="sn">Shona</option>
+                                                    <option value="nd">Ndebele</option>
+                                                </select>
+                                            </div>
+
+                                            <div className="space-y-2">
+                                                <Label htmlFor="currency">Default Currency</Label>
+                                                <select
+                                                    id="currency"
+                                                    className="w-full h-10 px-3 py-2 bg-background border border-input rounded-md"
+                                                >
+                                                    <option value="usd">USD (US Dollar)</option>
+                                                    <option value="zwl">ZWL (Zimbabwean Dollar)</option>
+                                                    <option value="zar">ZAR (South African Rand)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </TabsContent>
                         </Tabs>
                     </CardContent>
