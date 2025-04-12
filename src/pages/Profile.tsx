@@ -372,7 +372,12 @@ const Profile = () => {
                                     <div className="space-y-4">
                                         <h3 className="font-medium">Display Preferences</h3>
 
-                                        <div className="space-y-3"></div>
+                                        <div className="space-y-3">
+                                        <div className="flex items-center justify-between">
+                        <Label htmlFor="dark-mode">Dark Mode</Label>
+                        <Switch id="dark-mode" />
+                      </div>
+                                        </div>
                                     </div>
                                 </div>
                             </TabsContent>
