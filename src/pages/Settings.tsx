@@ -77,7 +77,7 @@ const Settings = () => {
                                 <Input id="phone" placeholder="+263 77 123 4567" defaultValue="+263 77 123 4567" />
                             </div>
 
-                            
+                            <Button>Save Changes</Button>
                         </CardContent>
                     </Card>
                 </TabsContent>
