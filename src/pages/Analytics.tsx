@@ -83,7 +83,9 @@ const Analytics = () => {
     };
 
     return (
-        <div className="space-y-6"></div>
+        <div className="space-y-6">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4"></div>
+        </div>
     );
 }
 
