@@ -475,8 +475,9 @@ const Settings = () => {
                                         <div className="font-medium">OneMoney</div>
                                         <div className="text-sm text-muted-foreground">+263 77 123 4567</div>
                                     </div>
-                                    <Button variant="outline" size="sm">Manage</Button>
+
                                 </div>
+                                <Button variant="outline" size="sm">Manage</Button>
                             </div>
                         </CardContent>
                     </Card>
