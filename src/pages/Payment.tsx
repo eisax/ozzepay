@@ -446,7 +446,7 @@ const Payment = () => {
                                             onValueChange={setSelectedWallet}
                                         >
 
-<SelectTrigger id="other-wallet">
+                                            <SelectTrigger id="other-wallet"></SelectTrigger>
                                         </Select>
                                     </div>
                                 </div>
