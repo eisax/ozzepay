@@ -334,7 +334,9 @@ const Settings = () => {
                     </Card>
 
                     <Card>
-                        <CardHeader></CardHeader>
+                        <CardHeader>
+                            <CardTitle>Login Sessions</CardTitle>
+                        </CardHeader>
                     </Card>
                 </TabsContent>
             </Tabs>
