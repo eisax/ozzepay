@@ -445,7 +445,9 @@ const Settings = () => {
                         </CardHeader>
 
                         <CardContent className="space-y-4">
-                            <div className="flex items-center justify-between"></div>
+                            <div className="flex items-center justify-between">
+                                
+                            </div>
                         </CardContent>
                     </Card>
                 </TabsContent>
