@@ -210,6 +210,8 @@ const Analytics = () => {
                         </div>
                     </CardContent>
                 </Card>
+
+                <Card></Card>
             </div>
         </div>
     );
