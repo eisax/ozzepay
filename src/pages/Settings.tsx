@@ -94,6 +94,7 @@ const Settings = () => {
                                     <div className="font-medium">Currency</div>
                                     <div className="text-sm text-muted-foreground">Change your preferred currency</div>
                                 </div>
+                                <Button variant="outline">USD $</Button>
                             </div>
                         </CardContent>
                     </Card>
