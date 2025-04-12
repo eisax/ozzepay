@@ -443,6 +443,8 @@ const Settings = () => {
                             <CardTitle>Connected Wallets</CardTitle>
                             <CardDescription>Manage your connected wallet accounts</CardDescription>
                         </CardHeader>
+
+                        <CardContent className="space-y-4"></CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
