@@ -121,7 +121,7 @@ const Payment = () => {
                         </TabsList>
 
                         <TabsContent value="utilities" className="space-y-6">
-                        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                            <div className="grid grid-cols-2 md:grid-cols-3 gap-3"></div>
                         </TabsContent>
                     </Tabs>
                 </CardContent>
