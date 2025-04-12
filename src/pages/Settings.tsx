@@ -30,6 +30,8 @@ const Settings = () => {
     const [showNewPassword, setShowNewPassword] = useState(false);
     const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
+    const [currentPassword, setCurrentPassword] = useState("");
+
 
     return (
         <div className="space-y-6">
