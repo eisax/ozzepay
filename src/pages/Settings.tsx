@@ -473,7 +473,7 @@ const Settings = () => {
                                     <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white font-bold">E</div>
                                     <div>
                                         <div className="font-medium">OneMoney</div>
-                                        <div className="text-sm text-muted-foreground">+263 77 123 4567</div>
+                                        <div className="text-sm text-muted-foreground">+263 71 234 5678</div>
                                     </div>
 
                                 </div>
