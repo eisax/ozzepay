@@ -212,7 +212,7 @@ const Analytics = () => {
                 </Card>
 
                 <Card>
-                <CardHeader></CardHeader>
+                    <CardHeader></CardHeader>
                 </Card>
             </div>
         </div>
