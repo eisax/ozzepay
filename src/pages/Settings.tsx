@@ -92,6 +92,7 @@ const Settings = () => {
                             <div className="flex items-center justify-between">
                                 <div>
                                     <div className="font-medium">Currency</div>
+                                    <div className="text-sm text-muted-foreground">Change your preferred currency</div>
                                 </div>
                             </div>
                         </CardContent>
