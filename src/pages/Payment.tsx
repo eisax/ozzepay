@@ -431,6 +431,8 @@ const Payment = () => {
                                     <Label htmlFor="merchant">Merchant/Service Name</Label>
                                     <Input id="merchant" placeholder="Enter merchant or service name" />
                                 </div>
+
+                                <div className="space-y-2"></div>
                             </form>
                         </TabsContent>
                     </Tabs>
