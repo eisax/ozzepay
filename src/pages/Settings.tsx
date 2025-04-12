@@ -193,6 +193,8 @@ const Settings = () => {
                             <form onSubmit={handleChangePassword} className="space-y-4">
                                 <div className="space-y-2">
                                     <Label htmlFor="currentPassword">Current Password</Label>
+
+                                    <div className="relative"></div>
                                 </div>
                             </form>
                         </CardContent>
