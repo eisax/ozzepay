@@ -441,6 +441,7 @@ const Settings = () => {
                     <Card>
                         <CardHeader>
                             <CardTitle>Connected Wallets</CardTitle>
+                            <CardDescription>Manage your connected wallet accounts</CardDescription>
                         </CardHeader>
                     </Card>
                 </TabsContent>
