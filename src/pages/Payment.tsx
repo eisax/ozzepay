@@ -42,6 +42,15 @@ const Payment = () => {
         }
 
         const wallet = wallets.find((w) => w.id === selectedWallet);
+
+        if (!wallet || amountNum > wallet.balance) {
+            toast({
+                title: "Insufficient funds",
+                description: `You don't have enough funds in your ${wallet?.name || "selected"} wallet`,
+                variant: "destructive",
+            });
+            return;
+        }
     }
 }
 
