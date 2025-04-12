@@ -270,6 +270,7 @@ const Analytics = () => {
                 <Card>
                     <CardHeader>
                         <CardTitle>Wallet Distribution</CardTitle>
+                        <CardDescription>How your money is distributed across wallets</CardDescription>
                     </CardHeader>
                 </Card>
             </div>
