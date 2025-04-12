@@ -72,7 +72,9 @@ const Request = () => {
                         <Button type="submit" className="w-full">Send Request</Button>
                     </form>
 
-                    <div className="mt-6 p-4 bg-muted rounded-lg"></div>
+                    <div className="mt-6 p-4 bg-muted rounded-lg">
+                        <h3 className="font-medium text-sm mb-2">Payment Link</h3>
+                    </div>
                 </CardContent>
             </Card>
         </div>
