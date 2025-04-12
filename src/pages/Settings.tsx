@@ -27,6 +27,7 @@ const Settings = () => {
     const { toast } = useToast();
     const [isLoading, setIsLoading] = useState(false);
     const [showCurrentPassword, setShowCurrentPassword] = useState(false);
+    const [showNewPassword, setShowNewPassword] = useState(false);
 
 
     return (
