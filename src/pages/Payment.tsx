@@ -429,6 +429,7 @@ const Payment = () => {
                             <form onSubmit={handlePayment} className="space-y-4">
                                 <div className="space-y-2">
                                     <Label htmlFor="merchant">Merchant/Service Name</Label>
+                                    <Input id="merchant" placeholder="Enter merchant or service name" />
                                 </div>
                             </form>
                         </TabsContent>
