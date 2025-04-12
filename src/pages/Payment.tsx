@@ -449,6 +449,8 @@ const Payment = () => {
                                             <SelectTrigger id="other-wallet">
                                                 <SelectValue placeholder="Select wallet" />
                                             </SelectTrigger>
+
+                                            
                                         </Select>
                                     </div>
                                 </div>
