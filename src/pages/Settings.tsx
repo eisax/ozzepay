@@ -26,6 +26,7 @@ import { Button } from "@/components/ui/button";
 const Settings = () => {
     const { toast } = useToast();
     const [isLoading, setIsLoading] = useState(false);
+    const [showCurrentPassword, setShowCurrentPassword] = useState(false);
 
 
     return (
