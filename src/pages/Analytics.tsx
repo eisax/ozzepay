@@ -94,7 +94,9 @@ const Analytics = () => {
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
                 <h1 className="text-2xl font-bold">Analytics</h1>
 
-                <Select value={period} onValueChange={setPeriod}></Select>
+                <Select value={period} onValueChange={setPeriod}>
+                <SelectTrigger className="w-[180px]"></SelectTrigger>
+                </Select>
             </div>
         </div>
     );
