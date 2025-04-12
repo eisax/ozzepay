@@ -78,6 +78,9 @@ const Request = () => {
                             <div className="flex-1 border rounded p-2 bg-background text-xs overflow-hidden text-ellipsis">
                                 https://walletwave.app/pay/req123456
                             </div>
+                            <Button size="sm" variant="outline" onClick={copyPaymentLink}>
+                                {linkCopied ? <Check size={16} /> : <Copy size={16} />}
+                            </Button>
                         </div>
                     </div>
                 </CardContent>
