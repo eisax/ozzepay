@@ -504,6 +504,7 @@ const Settings = () => {
 
                             <div className="space-y-2">
                                 <Label htmlFor="monthlyLimit">Monthly Transaction Limit (USD)</Label>
+                                <div className="relative"></div>
                             </div>
                         </CardContent>
                     </Card>
