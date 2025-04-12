@@ -267,6 +267,8 @@ const Profile = () => {
                                     </div>
                                 )}
                             </TabsContent>
+
+                            <TabsContent value="security"></TabsContent>
                         </Tabs>
                     </CardContent>
                 </Card>
