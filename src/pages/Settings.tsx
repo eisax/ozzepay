@@ -217,6 +217,8 @@ const Settings = () => {
 
                                 <div className="space-y-2">
                                     <Label htmlFor="newPassword">New Password</Label>
+
+                                    <div className="relative"></div>
                                 </div>
                             </form>
                         </CardContent>
