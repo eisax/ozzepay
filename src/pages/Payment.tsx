@@ -79,7 +79,9 @@ const Payment = () => {
             <h1 className="text-2xl font-bold">Payments</h1>
 
             <Card className="max-w-3xl mx-auto">
-                <CardHeader></CardHeader>
+                <CardHeader>
+                    <CardTitle>Pay Bills & Services</CardTitle>
+                </CardHeader>
             </Card>
         </div>
     );
