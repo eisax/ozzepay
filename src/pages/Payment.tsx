@@ -247,6 +247,8 @@ const Payment = () => {
                                     <span>International</span>
                                 </Button>
                             </div>
+
+                            <form onSubmit={handlePayment} className="space-y-4 pt-4 border-t"></form>
                         </TabsContent>
                     </Tabs>
                 </CardContent>
