@@ -133,7 +133,9 @@ const Payment = () => {
                                     <span>City Council</span>
                                 </Button>
 
-                                <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2"></Button>
+                                <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
+                                    <Tv className="h-6 w-6 text-purple-500" />
+                                </Button>
                             </div>
                         </TabsContent>
                     </Tabs>
