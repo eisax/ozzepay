@@ -29,6 +29,8 @@ const Payment = () => {
             });
             return;
         }
+
+        const amountNum = parseFloat(amount);
     }
 }
 
