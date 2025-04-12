@@ -241,6 +241,10 @@ const Payment = () => {
                                     <Smartphone className="h-6 w-6 text-blue-500" />
                                     <span>Telecel</span>
                                 </Button>
+
+                                <Button variant="outline" className="h-20 flex flex-col items-center justify-center gap-2">
+                                    
+                                </Button>
                             </div>
                         </TabsContent>
                     </Tabs>
