@@ -383,6 +383,8 @@ const Profile = () => {
                                             </div>
                                         </div>
                                     </div>
+
+                                    <div className="space-y-4 pt-4 border-t"></div>
                                 </div>
                             </TabsContent>
                         </Tabs>
