@@ -394,6 +394,13 @@ const Profile = () => {
                                                 </div>
                                                 <p className="text-sm font-medium mt-1">Ecocash</p>
                                             </div>
+
+                                            <div className="rounded-lg border p-3 text-center hover:border-wallet-inn/70 cursor-pointer transition-colors">
+                                                <div className="w-10 h-10 rounded-full bg-wallet-inn mx-auto flex items-center justify-center text-white">
+                                                    I
+                                                </div>
+                                                <p className="text-sm font-medium mt-1">Innbucks</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
