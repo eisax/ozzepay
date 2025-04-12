@@ -328,6 +328,7 @@ const Settings = () => {
                                     <div className="font-medium">Enable 2FA</div>
                                     <div className="text-sm text-muted-foreground">Secure your account with two-factor authentication</div>
                                 </div>
+                                <Switch />
                             </div>
                         </CardContent>
                     </Card>
