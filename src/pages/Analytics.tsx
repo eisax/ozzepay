@@ -137,6 +137,10 @@ const Analytics = () => {
                 <Card>
                     <CardHeader className="pb-2">
                         <CardTitle className="text-xl">Average Daily</CardTitle>
+
+                        <CardDescription>
+                            Based on {period === "week" ? "7 days" : period === "month" ? "30 days" : "365 days"}
+                        </CardDescription>
                     </CardHeader>
                 </Card>
             </div>
