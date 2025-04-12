@@ -263,7 +263,7 @@ const Settings = () => {
                                     </div>
                                 </div>
 
-                                
+                                <div className="bg-muted/50 p-3 rounded-md space-y-2 mt-2"></div>
                             </form>
                         </CardContent>
                     </Card>
