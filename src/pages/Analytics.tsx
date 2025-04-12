@@ -251,17 +251,17 @@ const Analytics = () => {
                             </TabsContent>
 
                             <TabsContent value="list">
-                            <div className="space-y-2">
-                  {categoryData.sort((a, b) => b.value - a.value).map((category) => (
-                    <div key={category.name} className="flex items-center justify-between">
-                      <div className="flex items-center gap-2">
-                        <div className="w-3 h-3 rounded-full" style={{ backgroundColor: category.color }}></div>
-                        <span>{category.name}</span>
-                      </div>
-                      <span className="font-medium">{formatCurrency(category.value)}</span>
-                    </div>
-                  ))}
-                </div>
+                                <div className="space-y-2">
+                                    {categoryData.sort((a, b) => b.value - a.value).map((category) => (
+                                        <div key={category.name} className="flex items-center justify-between">
+                                            <div className="flex items-center gap-2">
+                                                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: category.color }}></div>
+                                                <span>{category.name}</span>
+                                            </div>
+                                            <span className="font-medium">{formatCurrency(category.value)}</span>
+                                        </div>
+                                    ))}
+                                </div>
                             </TabsContent>
                         </Tabs>
                     </CardContent>
