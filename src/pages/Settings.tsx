@@ -266,7 +266,16 @@ const Settings = () => {
                                 <div className="bg-muted/50 p-3 rounded-md space-y-2 mt-2">
                                     <p className="text-sm font-medium">Password Requirements:</p>
 
-                                    <ul className="space-y-1"></ul>
+                                    <ul className="space-y-1">
+                                        <li className="text-xs flex items-center">
+                                            {hasMinLength ? (
+                                                <Check size={14} className="text-green-500 mr-1" />
+                                            ) : (
+                                                <X size={14} className="text-red-500 mr-1" />
+                                            )}
+                                            At least 8 characters long
+                                        </li>
+                                    </ul>
                                 </div>
                             </form>
                         </CardContent>
