@@ -347,7 +347,12 @@ const Profile = () => {
                                     <div className="space-y-4 pt-4 border-t">
                                         <h3 className="font-medium">Email Notifications</h3>
 
-                                        <div className="space-y-3"></div>
+                                        <div className="space-y-3">
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="email-summary">Weekly summary</Label>
+                                                <Switch id="email-summary" defaultChecked />
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </TabsContent>
