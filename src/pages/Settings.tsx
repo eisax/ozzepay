@@ -29,6 +29,7 @@ const Settings = () => {
 
                     <TabsTrigger value="notifications">
                         <Bell size={16} className="mr-2" />
+                        Notifications
                     </TabsTrigger>
                 </TabsList>
             </Tabs>
