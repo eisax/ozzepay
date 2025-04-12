@@ -20,6 +20,21 @@ const Analytics = () => {
         { day: "Week 4", amount: 265.80 },
     ];
 
+    const yearlySpending = [
+        { day: "Jan", amount: 950.40 },
+        { day: "Feb", amount: 875.30 },
+        { day: "Mar", amount: 925.20 },
+        { day: "Apr", amount: 1045.75 },
+        { day: "May", amount: 895.60 },
+        { day: "Jun", amount: 945.50 },
+        { day: "Jul", amount: 1125.80 },
+        { day: "Aug", amount: 1035.70 },
+        { day: "Sep", amount: 985.90 },
+        { day: "Oct", amount: 1075.25 },
+        { day: "Nov", amount: 1150.15 },
+        { day: "Dec", amount: 1250.45 },
+    ];
+
     return (
         <div className="space-y-6"></div>
     );
