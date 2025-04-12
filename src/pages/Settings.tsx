@@ -315,6 +315,8 @@ const Settings = () => {
                             </form>
                         </CardContent>
                     </Card>
+
+                    <Card>
                 </TabsContent>
             </Tabs>
         </div>
