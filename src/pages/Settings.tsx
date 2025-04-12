@@ -218,7 +218,15 @@ const Settings = () => {
                                 <div className="space-y-2">
                                     <Label htmlFor="newPassword">New Password</Label>
 
-                                    <div className="relative"></div>
+                                    <div className="relative">
+                                        <Input
+                                            id="newPassword"
+                                            type={showNewPassword ? "text" : "password"}
+                                            placeholder="Enter your new password"
+                                            value={newPassword}
+                                            onChange={(e) => setNewPassword(e.target.value)}
+                                        />
+                                    </div>
                                 </div>
                             </form>
                         </CardContent>
