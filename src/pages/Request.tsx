@@ -37,6 +37,8 @@ const Request = () => {
                     <CardTitle>Request Payment</CardTitle>
                     <CardDescription>Create a payment request to share with others</CardDescription>
                 </CardHeader>
+
+                <CardContent></CardContent>
             </Card>
         </div>
     );
