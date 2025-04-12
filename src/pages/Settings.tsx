@@ -418,7 +418,12 @@ const Settings = () => {
                                 <Switch defaultChecked />
                             </div>
 
-                            <div className="flex items-center justify-between"></div>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <div className="font-medium">Low Balance Alerts</div>
+                                    <div className="text-sm text-muted-foreground">Get notified when your balance is low</div>
+                                </div>
+                            </div>
                         </CardContent>
                     </Card>
                 </TabsContent>
