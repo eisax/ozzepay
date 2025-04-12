@@ -118,7 +118,9 @@ const Settings = () => {
                 </TabsContent>
 
                 <TabsContent value="security" className="mt-6 space-y-6">
-                    <Card></Card>
+                    <Card>
+                        CardH
+                    </Card>
                 </TabsContent>
             </Tabs>
         </div>
