@@ -369,7 +369,12 @@ const Settings = () => {
                         </CardHeader>
 
                         <CardContent className="space-y-4">
-                        <div className="flex items-center justify-between"></div>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <div className="font-medium">Push Notifications</div>
+                                    <div className="text-sm text-muted-foreground">Receive notifications on your device</div>
+                                </div>
+                            </div>
                         </CardContent>
                     </Card>
                 </TabsContent>
