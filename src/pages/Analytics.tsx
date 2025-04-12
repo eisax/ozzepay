@@ -224,6 +224,8 @@ const Analytics = () => {
                                 <TabsTrigger value="chart">Chart</TabsTrigger>
                                 <TabsTrigger value="list">List</TabsTrigger>
                             </TabsList>
+
+                            <TabsContent value="chart"></TabsContent>
                         </Tabs>
                     </CardContent>
                 </Card>
