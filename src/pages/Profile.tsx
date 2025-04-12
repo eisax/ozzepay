@@ -290,6 +290,10 @@ const Profile = () => {
                                                 <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
                                                     <Shield className="text-primary" />
                                                 </div>
+                                                <div>
+                                                    <p className="font-medium">SMS Verification</p>
+                                                    <p className="text-sm text-muted-foreground">Receive a code via SMS for sensitive actions</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
