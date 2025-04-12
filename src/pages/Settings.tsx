@@ -38,6 +38,9 @@ const Settings = () => {
     const hasUppercase = /[A-Z]/.test(newPassword);
     const hasNumber = /\d/.test(newPassword);
     const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/.test(newPassword);
+    const passwordsMatch = newPassword === confirmPassword && newPassword !== "";
+
+    const handleChangePassword = (e: React.FormEvent) => {
 
 
     return (
