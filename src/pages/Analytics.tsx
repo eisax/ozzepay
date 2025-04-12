@@ -13,6 +13,13 @@ const Analytics = () => {
         { day: "Sun", amount: 55.10 },
     ];
 
+    const monthlySpending = [
+        { day: "Week 1", amount: 245.75 },
+        { day: "Week 2", amount: 320.50 },
+        { day: "Week 3", amount: 185.30 },
+        { day: "Week 4", amount: 265.80 },
+      ];
+
     return (
         <div className="space-y-6"></div>
     );
