@@ -402,7 +402,12 @@ const Settings = () => {
                         </CardHeader>
 
                         <CardContent className="space-y-4">
-                            <div className="flex items-center justify-between"></div>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <div className="font-medium">Transaction Alerts</div>
+                                    <div className="text-sm text-muted-foreground">Get notified about all transactions</div>
+                                </div>
+                            </div>
                         </CardContent>
                     </Card>
                 </TabsContent>
