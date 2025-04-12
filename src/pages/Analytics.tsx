@@ -151,7 +151,9 @@ const Analytics = () => {
                 </Card>
 
                 <Card>
-                <CardHeader className="pb-2"></CardHeader>
+                    <CardHeader className="pb-2">
+                        <CardTitle className="text-xl">Top Category</CardTitle>
+                    </CardHeader>
                 </Card>
             </div>
         </div>
