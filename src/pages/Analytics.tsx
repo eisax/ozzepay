@@ -142,6 +142,12 @@ const Analytics = () => {
                             Based on {period === "week" ? "7 days" : period === "month" ? "30 days" : "365 days"}
                         </CardDescription>
                     </CardHeader>
+
+                    <CardContent>
+                        <div className="text-3xl font-bold text-primary">
+                            {formatCurrency(totalSpending / (period === "week" ? 7 : period === "month" ? 30 : 365))}
+                        </div>
+                    </CardContent>
                 </Card>
             </div>
         </div>
