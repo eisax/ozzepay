@@ -496,6 +496,7 @@ const Settings = () => {
                         <CardContent className="space-y-4">
                             <div className="space-y-2">
                                 <Label htmlFor="dailyLimit">Daily Transaction Limit (USD)</Label>
+                                <div className="relative"></div>
                             </div>
                         </CardContent>
                     </Card>
