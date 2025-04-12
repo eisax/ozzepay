@@ -102,6 +102,7 @@ const Settings = () => {
                                     <div className="font-medium">Language</div>
                                     <div className="text-sm text-muted-foreground">Change the display language</div>
                                 </div>
+                                <Button variant="outline">English</Button>
                             </div>
                         </CardContent>
                     </Card>
