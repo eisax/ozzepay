@@ -67,6 +67,8 @@ const Request = () => {
                             <Label htmlFor="reason">Reason for request</Label>
                             <Textarea id="reason" placeholder="What is this payment for?" />
                         </div>
+
+                        <Button type="submit" className="w-full">Send Request</Button>
                     </form>
                 </CardContent>
             </Card>
