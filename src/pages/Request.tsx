@@ -39,7 +39,11 @@ const Request = () => {
                 </CardHeader>
 
                 <CardContent>
-                    <div className="flex justify-center mb-6"></div>
+                    <div className="flex justify-center mb-6">
+                        <div className="w-16 h-16 rounded-full bg-purple-100 flex items-center justify-center">
+                            <Receipt className="h-8 w-8 text-purple-500" />
+                        </div>
+                    </div>
                 </CardContent>
             </Card>
         </div>
