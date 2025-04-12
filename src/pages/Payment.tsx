@@ -437,7 +437,9 @@ const Payment = () => {
                                     <Input id="reference" placeholder="Enter reference number" />
                                 </div>
 
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div className="space-y-2"></div>
+                                </div>
                             </form>
                         </TabsContent>
                     </Tabs>
