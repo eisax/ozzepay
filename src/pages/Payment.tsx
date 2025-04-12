@@ -283,6 +283,8 @@ const Payment = () => {
                                             <SelectTrigger id="mobile-wallet">
                                                 <SelectValue placeholder="Select wallet" />
                                             </SelectTrigger>
+
+                                            <SelectContent></SelectContent>
                                         </Select>
                                     </div>
                                 </div>
