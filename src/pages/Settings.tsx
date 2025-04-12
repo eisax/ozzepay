@@ -338,6 +338,8 @@ const Settings = () => {
                             <CardTitle>Login Sessions</CardTitle>
                             <CardDescription>Manage your active sessions and devices</CardDescription>
                         </CardHeader>
+
+                        <CardContent></CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
