@@ -227,13 +227,13 @@ const Settings = () => {
                                             onChange={(e) => setNewPassword(e.target.value)}
                                         />
 
-<Button
-                      type="button"
-                      variant="ghost"
-                      size="icon"
-                      className="absolute right-1 top-1/2 -translate-y-1/2 h-7 w-7"
-                      onClick={() => setShowNewPassword(!showNewPassword)}
-                    ><
+                                        <Button
+                                            type="button"
+                                            variant="ghost"
+                                            size="icon"
+                                            className="absolute right-1 top-1/2 -translate-y-1/2 h-7 w-7"
+                                            onClick={() => setShowNewPassword(!showNewPassword)}
+                                        ></Button>
                                     </div>
                                 </div>
                             </form>
