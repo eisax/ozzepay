@@ -311,6 +311,7 @@ const Profile = () => {
                                                     <p className="text-sm text-muted-foreground">Additional security for payments and transfers</p>
                                                 </div>
                                             </div>
+                                            <Switch defaultChecked />
                                         </div>
                                     </div>
                                 </div>
