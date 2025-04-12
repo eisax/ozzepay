@@ -20,6 +20,15 @@ const Payment = () => {
 
     const handlePayment = (e: React.FormEvent) => {
         e.preventDefault();
+
+        if (!amount || !selectedWallet) {
+            toast({
+                title: "Missing information",
+                description: "Please fill in all required fields",
+                variant: "destructive",
+            });
+            return;
+        }
     }
 }
 
