@@ -386,6 +386,8 @@ const Profile = () => {
 
                                     <div className="space-y-4 pt-4 border-t">
                                         <h3 className="font-medium">Default Wallet</h3>
+
+                                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3"></div>
                                     </div>
                                 </div>
                             </TabsContent>
