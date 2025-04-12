@@ -331,6 +331,11 @@ const Profile = () => {
                                                 <Label htmlFor="push-all">All transactions</Label>
                                                 <Switch id="push-all" defaultChecked />
                                             </div>
+
+                                            <div className="flex items-center justify-between">
+                                                <Label htmlFor="push-deposits">Deposits only</Label>
+                                                <Switch id="push-deposits" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
