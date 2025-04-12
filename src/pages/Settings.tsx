@@ -309,6 +309,9 @@ const Settings = () => {
                                         </li>
                                     </ul>
                                 </div>
+                                <Button type="submit" className="w-full" disabled={isLoading}>
+                                    {isLoading ? "Updating..." : "Change Password"}
+                                </Button>
                             </form>
                         </CardContent>
                     </Card>
