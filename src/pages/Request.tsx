@@ -74,6 +74,7 @@ const Request = () => {
 
                     <div className="mt-6 p-4 bg-muted rounded-lg">
                         <h3 className="font-medium text-sm mb-2">Payment Link</h3>
+                        <div className="flex items-center gap-2"></div>
                     </div>
                 </CardContent>
             </Card>
