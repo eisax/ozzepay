@@ -423,6 +423,7 @@ const Settings = () => {
                                     <div className="font-medium">Low Balance Alerts</div>
                                     <div className="text-sm text-muted-foreground">Get notified when your balance is low</div>
                                 </div>
+                                <Switch defaultChecked />
                             </div>
                         </CardContent>
                     </Card>
