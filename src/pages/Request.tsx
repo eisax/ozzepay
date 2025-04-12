@@ -62,7 +62,9 @@ const Request = () => {
                             </div>
                         </div>
 
-                        <div className="space-y-2"></div>
+                        <div className="space-y-2">
+                            <Label htmlFor="reason">Reason for request</Label>
+                        </div>
                     </form>
                 </CardContent>
             </Card>
