@@ -53,6 +53,8 @@ const Request = () => {
                             <Label htmlFor="recipient">Recipient's Phone or Email</Label>
                             <Input id="recipient" placeholder="Enter phone or email" />
                         </div>
+
+                        <div className="space-y-2"></div>
                     </form>
                 </CardContent>
             </Card>
