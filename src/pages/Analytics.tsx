@@ -115,7 +115,9 @@ const Analytics = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <Card></Card>
+                <Card>
+                <CardHeader className="pb-2">
+                </Card>
             </div>
         </div>
     );
