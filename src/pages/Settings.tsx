@@ -61,7 +61,9 @@ const Settings = () => {
                                     <Input id="firstName" placeholder="John" defaultValue="John" />
                                 </div>
 
-                                <div className="space-y-2"></div>
+                                <div className="space-y-2">
+                                    <Label htmlFor="lastName">Last Name</Label>
+                                </div>
                             </div>
                         </CardContent>
                     </Card>
