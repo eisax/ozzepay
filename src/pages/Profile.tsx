@@ -314,6 +314,10 @@ const Profile = () => {
                                             <Switch defaultChecked />
                                         </div>
                                     </div>
+
+                                    <div className="pt-4 flex justify-end">
+                                        <Button variant="outline">Change PIN</Button>
+                                    </div>
                                 </div>
                             </TabsContent>
                         </Tabs>
