@@ -149,6 +149,8 @@ const Analytics = () => {
                         </div>
                     </CardContent>
                 </Card>
+
+                
             </div>
         </div>
     );
