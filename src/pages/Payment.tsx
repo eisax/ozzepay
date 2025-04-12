@@ -53,6 +53,18 @@ const Payment = () => {
         }
 
         setIsLoading(true);
+
+        setTimeout(() => {
+            setIsLoading(false);
+            toast({
+                title: "Payment successful!",
+                description: `$${amountNum.toFixed(2)} has been paid successfully`,
+            });
+
+            // Reset form
+            setAmount("");
+            setSelectedWallet("");
+        }, 1500);
     }
 }
 
