@@ -301,7 +301,9 @@ const Profile = () => {
                                     <div className="space-y-4 pt-4 border-t">
                                         <h3 className="font-medium">Transaction Security</h3>
 
-                                        <div className="flex items-center justify-between p-4 border rounded-lg"></div>
+                                        <div className="flex items-center justify-between p-4 border rounded-lg">
+                                            <div className="flex items-center gap-3"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </TabsContent>
