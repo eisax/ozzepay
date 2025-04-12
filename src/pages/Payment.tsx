@@ -13,6 +13,15 @@ import {
     TabsList,
     TabsTrigger,
 } from "@/components/ui/tabs";
+import {
+    CreditCard,
+    Smartphone,
+    Zap,
+    Wifi,
+    Home,
+    Globe,
+    Tv,
+} from "lucide-react";
 
 const Payment = () => {
     const { toast } = useToast();
