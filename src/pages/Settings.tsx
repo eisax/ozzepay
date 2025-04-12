@@ -71,6 +71,8 @@ const Settings = () => {
                                 <Label htmlFor="email">Email Address</Label>
                                 <Input id="email" type="email" placeholder="john.doe@example.com" defaultValue="john.doe@example.com" />
                             </div>
+
+                            <div className="space-y-2"></div>
                         </CardContent>
                     </Card>
                 </TabsContent>
