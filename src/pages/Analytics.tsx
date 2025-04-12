@@ -182,7 +182,9 @@ const Analytics = () => {
                         </CardDescription>
                     </CardHeader>
 
-                    <CardContent></CardContent>
+                    <CardContent>
+                    <div className="h-80"></div>
+                    </CardContent>
                 </Card>
             </div>
         </div>
