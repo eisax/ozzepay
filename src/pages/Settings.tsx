@@ -322,7 +322,9 @@ const Settings = () => {
                             <CardDescription>Add an extra layer of security to your account</CardDescription>
                         </CardHeader>
 
-                        <CardContent></CardContent>
+                        <CardContent>
+                            <div className="flex items-center justify-between"></div>
+                        </CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
