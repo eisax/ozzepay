@@ -249,6 +249,8 @@ const Analytics = () => {
                                     </ResponsiveContainer>
                                 </div>
                             </TabsContent>
+
+                            <TabsContent value="list"></TabsContent>
                         </Tabs>
                     </CardContent>
                 </Card>
