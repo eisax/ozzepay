@@ -320,6 +320,8 @@ const Profile = () => {
                                     </div>
                                 </div>
                             </TabsContent>
+
+                            <TabsContent value="notifications"></TabsContent>
                         </Tabs>
                     </CardContent>
                 </Card>
