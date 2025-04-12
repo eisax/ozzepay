@@ -339,7 +339,9 @@ const Settings = () => {
                             <CardDescription>Manage your active sessions and devices</CardDescription>
                         </CardHeader>
 
-                        <CardContent></CardContent>
+                        <CardContent>
+                            <div className="space-y-4"></div>
+                        </CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
