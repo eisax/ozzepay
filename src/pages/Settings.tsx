@@ -463,8 +463,9 @@ const Settings = () => {
                                         <div className="font-medium">Innbucks</div>
                                         <div className="text-sm text-muted-foreground">+263 77 123 4567</div>
                                     </div>
-                                    <Button variant="outline" size="sm">Manage</Button>
+
                                 </div>
+                                <Button variant="outline" size="sm">Manage</Button>
                             </div>
 
                             <div className="flex items-center justify-between">
