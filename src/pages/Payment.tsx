@@ -450,7 +450,7 @@ const Payment = () => {
                                                 <SelectValue placeholder="Select wallet" />
                                             </SelectTrigger>
 
-                                            
+                                            <SelectContent></SelectContent>
                                         </Select>
                                     </div>
                                 </div>
