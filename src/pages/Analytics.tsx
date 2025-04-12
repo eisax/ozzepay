@@ -126,6 +126,12 @@ const Analytics = () => {
                                     : "This year"}
                         </CardDescription>
                     </CardHeader>
+
+                    <CardContent>
+                        <div className="text-3xl font-bold text-primary">
+                            {formatCurrency(totalSpending)}
+                        </div>
+                    </CardContent>
                 </Card>
             </div>
         </div>
