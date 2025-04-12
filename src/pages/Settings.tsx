@@ -34,6 +34,7 @@ const Settings = () => {
 
                     <TabsTrigger value="payment">
                         <CreditCard size={16} className="mr-2" />
+                        Payment Methods
                     </TabsTrigger>
                 </TabsList>
             </Tabs>
