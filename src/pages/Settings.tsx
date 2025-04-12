@@ -319,6 +319,7 @@ const Settings = () => {
                     <Card>
                         <CardHeader>
                             <CardTitle>Two-Factor Authentication</CardTitle>
+                            <CardDescription>Add an extra layer of security to your account</CardDescription>
                         </CardHeader>
                     </Card>
                 </TabsContent>
