@@ -506,6 +506,7 @@ const Settings = () => {
                                 <Label htmlFor="monthlyLimit">Monthly Transaction Limit (USD)</Label>
                                 <div className="relative">
                                     <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">$</span>
+                                    <Input id="monthlyLimit" type="number" className="pl-7" defaultValue="10000" />
                                 </div>
                             </div>
                         </CardContent>
