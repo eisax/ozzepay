@@ -443,7 +443,9 @@ const Profile = () => {
                                                 </select>
                                             </div>
 
-                                            <div className="space-y-2"></div>
+                                            <div className="space-y-2">
+                                                <Label htmlFor="currency">Default Currency</Label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
