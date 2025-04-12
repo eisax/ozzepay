@@ -47,7 +47,7 @@ const Settings = () => {
 
                 <TabsContent value="account" className="mt-6 space-y-6">
                     <Card>
-                    <CardHeader><
+                        <CardHeader></CardHeader>
                     </Card>
                 </TabsContent>
             </Tabs>
