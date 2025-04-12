@@ -382,6 +382,7 @@ const Settings = () => {
                                     <div className="font-medium">Email Notifications</div>
                                     <div className="text-sm text-muted-foreground">Receive notifications via email</div>
                                 </div>
+                                <Switch defaultChecked />
                             </div>
                         </CardContent>
                     </Card>
