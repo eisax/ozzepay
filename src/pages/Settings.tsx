@@ -360,6 +360,8 @@ const Settings = () => {
                         </CardContent>
                     </Card>
                 </TabsContent>
+
+                <TabsContent value="notifications" className="mt-6 space-y-6"></TabsContent>
             </Tabs>
         </div>
     );
