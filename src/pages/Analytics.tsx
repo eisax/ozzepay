@@ -226,7 +226,7 @@ const Analytics = () => {
                             </TabsList>
 
                             <TabsContent value="chart">
-                                <div className="h-64">
+                                <div className="h-64"></div>
                             </TabsContent>
                         </Tabs>
                     </CardContent>
