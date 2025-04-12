@@ -411,10 +411,11 @@ const Settings = () => {
                             </div>
 
                             <div className="flex items-center justify-between">
-                            <div>
-                  <div className="font-medium">Deposit Notifications</div>
-                  <div className="text-sm text-muted-foreground">Get notified when you receive money</div>
-                </div>
+                                <div>
+                                    <div className="font-medium">Deposit Notifications</div>
+                                    <div className="text-sm text-muted-foreground">Get notified when you receive money</div>
+                                </div>
+                                <Switch defaultChecked />
                             </div>
                         </CardContent>
                     </Card>
