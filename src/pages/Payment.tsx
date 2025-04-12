@@ -106,6 +106,10 @@ const Payment = () => {
                                 <Zap size={16} className="mr-2" />
                                 Utilities
                             </TabsTrigger>
+                            <TabsTrigger value="mobile">
+                                <Smartphone size={16} className="mr-2" />
+                                Mobile
+                            </TabsTrigger>
                         </TabsList>
                     </Tabs>
                 </CardContent>
