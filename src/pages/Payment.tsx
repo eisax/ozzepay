@@ -22,6 +22,7 @@ import {
     Globe,
     Tv,
 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Payment = () => {
     const { toast } = useToast();
