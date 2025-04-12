@@ -488,7 +488,9 @@ const Settings = () => {
                     </Card>
 
                     <Card>
-                        <CardHeader></CardHeader>
+                        <CardHeader>
+                            <CardTitle>Transaction Limits</CardTitle>
+                        </CardHeader>
                     </Card>
                 </TabsContent>
             </Tabs>
