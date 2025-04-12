@@ -333,7 +333,9 @@ const Settings = () => {
                         </CardContent>
                     </Card>
 
-                    <Card></Card>
+                    <Card>
+                    <CardHeader>
+                    </Card>
                 </TabsContent>
             </Tabs>
         </div>
