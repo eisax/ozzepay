@@ -106,7 +106,9 @@ const Settings = () => {
                             </div>
 
                             <div className="flex items-center justify-between">
-                                <div></div>
+                                <div>
+                                    <div className="font-medium">Dark Mode</div>
+                                </div>
                             </div>
                         </CardContent>
                     </Card>
