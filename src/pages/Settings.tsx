@@ -123,6 +123,8 @@ const Settings = () => {
                             <CardTitle>Change Password</CardTitle>
                             <CardDescription>Update your password to keep your account secure</CardDescription>
                         </CardHeader>
+
+                        <CardContent></CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
