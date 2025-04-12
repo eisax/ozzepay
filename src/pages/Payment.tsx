@@ -7,6 +7,8 @@ const Payment = () => {
     const [isLoading, setIsLoading] = useState(false);
 
     const [selectedWallet, setSelectedWallet] = useState("");
+
+    const [amount, setAmount] = useState("");
 }
 
 export default Payment;
