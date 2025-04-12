@@ -434,6 +434,7 @@ const Payment = () => {
 
                                 <div className="space-y-2">
                                     <Label htmlFor="reference">Reference Number</Label>
+                                    <Input id="reference" placeholder="Enter reference number" />
                                 </div>
                             </form>
                         </TabsContent>
