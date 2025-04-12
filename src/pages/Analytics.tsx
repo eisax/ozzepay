@@ -51,6 +51,10 @@ const Analytics = () => {
         { name: "Zimswitch", value: 200.00, color: "#EF4444" },
     ];
 
+    const formatCurrency = (value: number) => {
+        return `$${value.toFixed(2)}`;
+    };
+
     return (
         <div className="space-y-6"></div>
     );
