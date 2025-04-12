@@ -355,7 +355,9 @@ const Payment = () => {
                                         <Input id="account" placeholder="Enter account number" />
                                     </div>
 
-                                    <div className="space-y-2"></div>
+                                    <div className="space-y-2">
+                                        <Label htmlFor="package">Package</Label>
+                                    </div>
                                 </div>
                             </form>
                         </TabsContent>
