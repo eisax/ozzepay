@@ -47,7 +47,9 @@ const Request = () => {
                     </div>
 
                     <form onSubmit={handleRequest} className="space-y-4">
-                        <div className="space-y-2"></div>
+                        <div className="space-y-2">
+                            <Label htmlFor="recipient">Recipient's Phone or Email</Label>
+                        </div>
                     </form>
                 </CardContent>
             </Card>
