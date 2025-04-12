@@ -72,7 +72,9 @@ const Settings = () => {
                                 <Input id="email" type="email" placeholder="john.doe@example.com" defaultValue="john.doe@example.com" />
                             </div>
 
-                            <div className="space-y-2"></div>
+                            <div className="space-y-2">
+                                <Label htmlFor="phone">Phone Number</Label>
+                            </div>
                         </CardContent>
                     </Card>
                 </TabsContent>
