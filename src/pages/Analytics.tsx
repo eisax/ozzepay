@@ -281,7 +281,9 @@ const Analytics = () => {
                             </TabsList>
 
                             <TabsContent value="chart">
-                                <div className="h-64"></div>
+                                <div className="h-64">
+                                    <ResponsiveContainer width="100%" height="100%"></ResponsiveContainer>
+                                </div>
                             </TabsContent>
                         </Tabs>
                     </CardContent>
