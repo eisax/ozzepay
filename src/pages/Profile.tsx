@@ -410,11 +410,13 @@ const Profile = () => {
                                             </div>
 
                                             <div className="rounded-lg border p-3 text-center hover:border-wallet-omari/70 cursor-pointer transition-colors">
-                        <div className="w-10 h-10 rounded-full bg-wallet-omari mx-auto flex items-center justify-center text-white">
-                          O
-                        </div>
-                        <p className="text-sm font-medium mt-1">Omari</p>
-                      </div>
+                                                <div className="w-10 h-10 rounded-full bg-wallet-omari mx-auto flex items-center justify-center text-white">
+                                                    O
+                                                </div>
+                                                <p className="text-sm font-medium mt-1">Omari</p>
+                                            </div>
+
+                                            
                                         </div>
                                     </div>
                                 </div>
