@@ -239,7 +239,9 @@ const Settings = () => {
                                     </div>
                                 </div>
 
-                                <div className="space-y-2"></div>
+                                <div className="space-y-2">
+                                    <Label htmlFor="confirmPassword">Confirm New Password</Label>
+                                </div>
                             </form>
                         </CardContent>
                     </Card>
