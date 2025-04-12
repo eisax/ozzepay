@@ -275,7 +275,9 @@ const Analytics = () => {
 
                     <CardContent>
                         <Tabs defaultValue="chart">
-                            <TabsList className="mb-4"></TabsList>
+                            <TabsList className="mb-4">
+                                <TabsTrigger value="chart">Chart</TabsTrigger>
+                            </TabsList>
                         </Tabs>
                     </CardContent>
                 </Card>
