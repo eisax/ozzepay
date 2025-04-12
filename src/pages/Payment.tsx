@@ -51,6 +51,8 @@ const Payment = () => {
             });
             return;
         }
+
+        setIsLoading(true);
     }
 }
 
