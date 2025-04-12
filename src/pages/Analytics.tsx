@@ -216,6 +216,8 @@ const Analytics = () => {
                         <CardTitle>Spending by Category</CardTitle>
                         <CardDescription>How your money is spent across categories</CardDescription>
                     </CardHeader>
+
+                    <CardContent></CardContent>
                 </Card>
             </div>
         </div>
