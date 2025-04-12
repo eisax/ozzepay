@@ -369,7 +369,9 @@ const Profile = () => {
 
                             <TabsContent value="preferences">
                                 <div className="space-y-6">
-                                    <div className="space-y-4"></div>
+                                    <div className="space-y-4">
+                                        <h3 className="font-medium">Display Preferences</h3>
+                                    </div>
                                 </div>
                             </TabsContent>
                         </Tabs>
