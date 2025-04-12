@@ -7,7 +7,7 @@ const Settings = () => {
 
             <Tabs defaultValue="account" className="w-full">
                 <TabsList className="grid w-full grid-cols-4">
-                <TabsTrigger value="account"></TabsTrigger>
+                    <TabsTrigger value="account"></TabsTrigger>
                 </TabsList>
             </Tabs>
         </div>
