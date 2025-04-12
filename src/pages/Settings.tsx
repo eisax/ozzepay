@@ -124,7 +124,9 @@ const Settings = () => {
                             <CardDescription>Update your password to keep your account secure</CardDescription>
                         </CardHeader>
 
-                        <CardContent></CardContent>
+                        <CardContent>
+                            <form onSubmit={handleChangePassword} className="space-y-4"></form>
+                        </CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
