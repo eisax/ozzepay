@@ -35,6 +35,14 @@ const Analytics = () => {
         { day: "Dec", amount: 1250.45 },
     ];
 
+    const categoryData = [
+        { name: "Shopping", value: 205.35, color: "#3B82F6" },
+        { name: "Utilities", value: 145.20, color: "#10B981" },
+        { name: "Transfer", value: 270.00, color: "#8B5CF6" },
+        { name: "Mobile", value: 45.00, color: "#F97316" },
+        { name: "Food", value: 95.50, color: "#EC4899" },
+    ];
+
     return (
         <div className="space-y-6"></div>
     );
