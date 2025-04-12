@@ -81,6 +81,7 @@ const Payment = () => {
             <Card className="max-w-3xl mx-auto">
                 <CardHeader>
                     <CardTitle>Pay Bills & Services</CardTitle>
+                    <CardDescription>Make quick payments to various service providers</CardDescription>
                 </CardHeader>
             </Card>
         </div>
