@@ -436,6 +436,8 @@ const Settings = () => {
                         </CardContent>
                     </Card>
                 </TabsContent>
+
+                <TabsContent value="payment" className="mt-6 space-y-6"></TabsContent>
             </Tabs>
         </div>
     );
