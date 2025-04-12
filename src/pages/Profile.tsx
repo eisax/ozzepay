@@ -430,7 +430,9 @@ const Profile = () => {
 
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
 
-                                            <div className="space-y-2"></div>
+                                            <div className="space-y-2">
+                                                <Label htmlFor="language">Language</Label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
