@@ -444,7 +444,10 @@ const Payment = () => {
                                         <Select
                                             value={selectedWallet}
                                             onValueChange={setSelectedWallet}
-                                        ></Select>
+                                        >
+
+<SelectTrigger id="other-wallet">
+                                        </Select>
                                     </div>
                                 </div>
                             </form>
