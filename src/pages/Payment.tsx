@@ -366,6 +366,7 @@ const Payment = () => {
                                             <SelectContent>
                                                 <SelectItem value="basic">Basic (10Mbps)</SelectItem>
                                                 <SelectItem value="standard">Standard (30Mbps)</SelectItem>
+                                                <SelectItem value="premium">Premium (100Mbps)</SelectItem>
                                             </SelectContent>
                                         </Select>
                                     </div>
