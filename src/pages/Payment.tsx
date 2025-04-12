@@ -175,6 +175,27 @@ const Payment = () => {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <div className="space-y-2">
                                         <Label htmlFor="payment-wallet">From Wallet</Label>
+
+                                        <Select
+                                            value={selectedWallet}
+                                            onValueChange={setSelectedWallet}
+                                        >
+                                            <SelectTrigger id="payment-wallet">
+                                                <SelectValue placeholder="Select wallet" />
+                                            </SelectTrigger>
+                                            <SelectContent>
+                                                {wallets.map((wallet) => (
+                                                    <SelectItem key={wallet.id} value={wallet.id}>
+                                                        <div className="flex items-center justify-between w-full">
+                                                            <span>{wallet.name}</span>
+                                                            <span className="text-muted-foreground text-sm">
+                                                                ${wallet.balance.toFixed(2)}
+                                                            </span>
+                                                        </div>
+                                                    </SelectItem>
+                                                ))}
+                                            </SelectContent>
+                                        </Select>
                                     </div>
                                 </div>
                             </form>
