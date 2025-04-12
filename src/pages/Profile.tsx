@@ -272,7 +272,6 @@ const Profile = () => {
                                 <div className="space-y-6">
                                     <div className="space-y-4">
                                         <h3 className="font-medium">Two-Factor Authentication</h3>
-
                                         <div className="flex items-center justify-between p-4 border rounded-lg">
                                             <div className="flex items-center gap-3">
                                                 <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
