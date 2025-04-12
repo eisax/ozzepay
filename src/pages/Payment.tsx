@@ -326,7 +326,7 @@ const Payment = () => {
                         </TabsContent>
 
                         <TabsContent value="internet" className="space-y-6">
-                            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                                 <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
                                     <Wifi className="h-6 w-6 text-blue-500" />
                                     <span>ZOL Fibroniks</span>
