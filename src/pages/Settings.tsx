@@ -497,7 +497,8 @@ const Settings = () => {
                             <div className="space-y-2">
                                 <Label htmlFor="dailyLimit">Daily Transaction Limit (USD)</Label>
                                 <div className="relative">
-                                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">$</span>
+                                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">$</span>
+                                    <Input id="dailyLimit" type="number" className="pl-7" defaultValue="1000" />
                                 </div>
                             </div>
                         </CardContent>
