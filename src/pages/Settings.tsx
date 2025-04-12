@@ -46,7 +46,9 @@ const Settings = () => {
                 </TabsList>
 
                 <TabsContent value="account" className="mt-6 space-y-6">
-                    <Card></Card>
+                    <Card>
+                    <CardHeader><
+                    </Card>
                 </TabsContent>
             </Tabs>
         </div>
