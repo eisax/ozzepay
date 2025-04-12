@@ -212,7 +212,9 @@ const Analytics = () => {
                 </Card>
 
                 <Card>
-                    <CardHeader></CardHeader>
+                    <CardHeader>
+                        <CardTitle>Spending by Category</CardTitle>
+                    </CardHeader>
                 </Card>
             </div>
         </div>
