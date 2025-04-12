@@ -432,6 +432,15 @@ const Profile = () => {
 
                                             <div className="space-y-2">
                                                 <Label htmlFor="language">Language</Label>
+
+                                                <select
+                                                    id="language"
+                                                    className="w-full h-10 px-3 py-2 bg-background border border-input rounded-md"
+                                                >
+                                                    <option value="en">English</option>
+                                                    <option value="sn">Shona</option>
+                                                    <option value="nd">Ndebele</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
