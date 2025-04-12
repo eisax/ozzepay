@@ -139,7 +139,7 @@ const Payment = () => {
                                 </Button>
                             </div>
 
-                            
+                            <form onSubmit={handlePayment} className="space-y-4 pt-4 border-t"></form>
                         </TabsContent>
                     </Tabs>
                 </CardContent>
