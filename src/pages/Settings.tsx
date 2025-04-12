@@ -190,7 +190,9 @@ const Settings = () => {
                         </CardHeader>
 
                         <CardContent>
-                            <form onSubmit={handleChangePassword} className="space-y-4"></form>
+                            <form onSubmit={handleChangePassword} className="space-y-4">
+                            <div className="space-y-2">
+                            </form>
                         </CardContent>
                     </Card>
                 </TabsContent>
