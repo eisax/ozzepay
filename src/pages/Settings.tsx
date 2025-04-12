@@ -66,6 +66,8 @@ const Settings = () => {
                                     <Input id="lastName" placeholder="Doe" defaultValue="Doe" />
                                 </div>
                             </div>
+
+                            <div className="space-y-2"></div>
                         </CardContent>
                     </Card>
                 </TabsContent>
