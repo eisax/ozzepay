@@ -359,9 +359,9 @@ const Profile = () => {
                                             </div>
 
                                             <div className="flex items-center justify-between">
-                        <Label htmlFor="email-marketing">Marketing and promotions</Label>
-                        <Switch id="email-marketing" />
-                      </div>
+                                                <Label htmlFor="email-marketing">Marketing and promotions</Label>
+                                                <Switch id="email-marketing" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
