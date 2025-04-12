@@ -486,6 +486,8 @@ const Settings = () => {
                             </Button>
                         </CardContent>
                     </Card>
+
+                    <Card></Card>
                 </TabsContent>
             </Tabs>
         </div>
