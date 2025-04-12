@@ -400,6 +400,8 @@ const Settings = () => {
                             <CardTitle>Notification Types</CardTitle>
                             <CardDescription>Choose what types of notifications you receive</CardDescription>
                         </CardHeader>
+
+                        <CardContent className="space-y-4"></CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
