@@ -74,6 +74,7 @@ const Settings = () => {
 
                             <div className="space-y-2">
                                 <Label htmlFor="phone">Phone Number</Label>
+                                <Input id="phone" placeholder="+263 77 123 4567" defaultValue="+263 77 123 4567" />
                             </div>
                         </CardContent>
                     </Card>
