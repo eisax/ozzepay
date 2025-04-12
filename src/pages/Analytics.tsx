@@ -98,6 +98,12 @@ const Analytics = () => {
                     <SelectTrigger className="w-[180px]">
                         <SelectValue placeholder="Select period" />
                     </SelectTrigger>
+
+                    <SelectContent>
+            <SelectItem value="week">This Week</SelectItem>
+            <SelectItem value="month">This Month</SelectItem>
+            <SelectItem value="year">This Year</SelectItem>
+          </SelectContent>
                 </Select>
             </div>
         </div>
