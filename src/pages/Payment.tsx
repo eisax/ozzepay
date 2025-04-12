@@ -398,6 +398,8 @@ const Payment = () => {
                                             </SelectContent>
                                         </Select>
                                     </div>
+
+                                    <div className="space-y-2"></div>
                                 </div>
                             </form>
                         </TabsContent>
