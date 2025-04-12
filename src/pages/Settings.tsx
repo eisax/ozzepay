@@ -362,7 +362,12 @@ const Settings = () => {
                 </TabsContent>
 
                 <TabsContent value="notifications" className="mt-6 space-y-6">
-                <Card></Card>
+                    <Card>
+                        <CardHeader>
+                            <CardTitle>Notification Preferences</CardTitle>
+                            <CardDescription>Choose what notifications you receive</CardDescription>
+                        </CardHeader>
+                    </Card>
                 </TabsContent>
             </Tabs>
         </div>
