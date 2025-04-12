@@ -51,6 +51,15 @@ const Settings = () => {
             });
             return;
         }
+
+        if (newPassword !== confirmPassword) {
+            toast({
+                title: "Passwords don't match",
+                description: "New password and confirmation must match",
+                variant: "destructive",
+            });
+            return;
+        }
     }
 
 
