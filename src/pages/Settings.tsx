@@ -426,7 +426,13 @@ const Settings = () => {
                                 <Switch defaultChecked />
                             </div>
 
-                            <div className="flex items-center justify-between"></div>
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <div className="font-medium">Marketing Updates</div>
+                                    <div className="text-sm text-muted-foreground">Receive promotional offers and updates</div>
+                                </div>
+                                <Switch />
+                            </div>
                         </CardContent>
                     </Card>
                 </TabsContent>
