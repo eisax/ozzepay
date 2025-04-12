@@ -87,6 +87,8 @@ const Settings = () => {
                             <CardTitle>Account Preferences</CardTitle>
                             <CardDescription>Manage your account settings</CardDescription>
                         </CardHeader>
+
+                        <CardContent className="space-y-4"></CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
