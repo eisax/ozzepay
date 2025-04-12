@@ -43,6 +43,14 @@ const Analytics = () => {
         { name: "Food", value: 95.50, color: "#EC4899" },
     ];
 
+    const walletData = [
+        { name: "Ecocash", value: 245.75, color: "#10B981" },
+        { name: "Innbucks", value: 150.20, color: "#8B5CF6" },
+        { name: "OneMoney", value: 85.50, color: "#F97316" },
+        { name: "Omari", value: 120.30, color: "#06B6D4" },
+        { name: "Zimswitch", value: 200.00, color: "#EF4444" },
+      ];
+
     return (
         <div className="space-y-6"></div>
     );
