@@ -91,7 +91,9 @@ const Payment = () => {
                 </CardHeader>
 
                 <CardContent>
-                    <Tabs defaultValue="utilities" className="w-full"></Tabs>
+                    <Tabs defaultValue="utilities" className="w-full">
+                    <TabsList className="grid grid-cols-4 mb-6">
+                    </Tabs>
                 </CardContent>
             </Card>
         </div>
