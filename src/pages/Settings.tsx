@@ -5,7 +5,9 @@ const Settings = () => {
         <div className="space-y-6">
             <h1 className="text-2xl font-bold">Settings</h1>
 
-            <Tabs defaultValue="account" className="w-full"></Tabs>
+            <Tabs defaultValue="account" className="w-full">
+                <TabsList className="grid w-full grid-cols-4"></TabsList>
+            </Tabs>
         </div>
     );
 }
