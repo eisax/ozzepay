@@ -14,7 +14,7 @@ const Request = () => {
     };
 
     const copyPaymentLink = () => {
-        navigator.clipboard.writeText("https://walletwave.app/pay/req123456");
+        navigator.clipboard.writeText("https://ozzepay.app/pay/req123456");
         setLinkCopied(true);
         toast({
             title: "Link copied!",
