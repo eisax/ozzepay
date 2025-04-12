@@ -438,7 +438,9 @@ const Payment = () => {
                                 </div>
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div className="space-y-2"></div>
+                                    <div className="space-y-2">
+                                    <Label htmlFor="other-wallet">From Wallet</Label>
+                                    </div>
                                 </div>
                             </form>
                         </TabsContent>
