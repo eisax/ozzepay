@@ -84,7 +84,9 @@ const Payment = () => {
                     <CardDescription>Make quick payments to various service providers</CardDescription>
                 </CardHeader>
 
-                <CardContent></CardContent>
+                <CardContent>
+                    <Tabs defaultValue="utilities" className="w-full"></Tabs>
+                </CardContent>
             </Card>
         </div>
     );
