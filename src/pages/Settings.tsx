@@ -40,7 +40,7 @@ const Settings = () => {
     const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/.test(newPassword);
     const passwordsMatch = newPassword === confirmPassword && newPassword !== "";
 
-    const handleChangePassword = (e: React.FormEvent) => {
+    const handleChangePassword = (e: React.FormEvent) => {}
 
 
     return (
