@@ -151,7 +151,9 @@ const Payment = () => {
                                     <div className="space-y-2">
                                         <Label htmlFor="provider">Service Provider</Label>
 
-                                        <Select></Select>
+                                        <Select>
+                                        <SelectTrigger id="provider">
+                                        </Select>
                                     </div>
                                 </div>
                             </form>
