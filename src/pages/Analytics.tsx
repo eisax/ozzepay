@@ -118,6 +118,13 @@ const Analytics = () => {
                 <Card>
                     <CardHeader className="pb-2">
                         <CardTitle className="text-xl">Total Spending</CardTitle>
+                        <CardDescription>
+                            {period === "week"
+                                ? "This week"
+                                : period === "month"
+                                    ? "This month"
+                                    : "This year"}
+                        </CardDescription>
                     </CardHeader>
                 </Card>
             </div>
