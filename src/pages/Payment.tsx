@@ -436,6 +436,8 @@ const Payment = () => {
                                     <Label htmlFor="reference">Reference Number</Label>
                                     <Input id="reference" placeholder="Enter reference number" />
                                 </div>
+
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
                             </form>
                         </TabsContent>
                     </Tabs>
