@@ -19,6 +19,7 @@ const Settings = () => {
                 <TabsList className="grid w-full grid-cols-4">
                     <TabsTrigger value="account">
                         <User size={16} className="mr-2" />
+                        Account
                     </TabsTrigger>
                 </TabsList>
             </Tabs>
