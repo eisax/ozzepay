@@ -352,6 +352,7 @@ const Payment = () => {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <div className="space-y-2">
                                         <Label htmlFor="account">Account Number</Label>
+                                        <Input id="account" placeholder="Enter account number" />
                                     </div>
                                 </div>
                             </form>
