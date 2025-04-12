@@ -35,6 +35,7 @@ const Settings = () => {
     const [confirmPassword, setConfirmPassword] = useState("");
 
     const hasMinLength = newPassword.length >= 8;
+    const hasUppercase = /[A-Z]/.test(newPassword);
 
 
     return (
