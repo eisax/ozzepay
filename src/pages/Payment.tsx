@@ -383,6 +383,19 @@ const Payment = () => {
                                             <SelectTrigger id="internet-wallet">
                                                 <SelectValue placeholder="Select wallet" />
                                             </SelectTrigger>
+
+                                            <SelectContent>
+                        {wallets.map((wallet) => (
+                          <SelectItem key={wallet.id} value={wallet.id}>
+                            <div className="flex items-center justify-between w-full">
+                              <span>{wallet.name}</span>
+                              <span className="text-muted-foreground text-sm">
+                                ${wallet.balance.toFixed(2)}
+                              </span>
+                            </div>
+                          </SelectItem>
+                        ))}
+                      </SelectContent>
                                         </Select>
                                     </div>
                                 </div>
