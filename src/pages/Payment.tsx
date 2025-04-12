@@ -127,6 +127,10 @@ const Payment = () => {
                                     <Zap className="h-6 w-6 text-amber-500" />
                                     <span>ZESA Electricity</span>
                                 </Button>
+
+                                <Button variant="outline" className="h-24 flex flex-col items-center justify-center gap-2">
+                                    
+                                </Button>
                             </div>
                         </TabsContent>
                     </Tabs>
