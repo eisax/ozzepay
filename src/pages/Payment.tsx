@@ -401,6 +401,8 @@ const Payment = () => {
 
                                     <div className="space-y-2">
                                         <Label htmlFor="internet-amount">Amount (USD)</Label>
+
+                                        <div className="relative"></div>
                                     </div>
                                 </div>
                             </form>
