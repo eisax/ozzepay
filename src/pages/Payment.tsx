@@ -110,6 +110,10 @@ const Payment = () => {
                                 <Smartphone size={16} className="mr-2" />
                                 Mobile
                             </TabsTrigger>
+                            <TabsTrigger value="internet">
+                                <Wifi size={16} className="mr-2" />
+                                Internet
+                            </TabsTrigger>
                         </TabsList>
                     </Tabs>
                 </CardContent>
