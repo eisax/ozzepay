@@ -308,13 +308,13 @@ const Payment = () => {
                                             </span>
 
                                             <Input
-                        id="mobile-amount"
-                        type="number"
-                        className="pl-7"
-                        placeholder="0.00"
-                        value={amount}
-                        onChange={(e) => setAmount(e.target.value)}
-                      />
+                                                id="mobile-amount"
+                                                type="number"
+                                                className="pl-7"
+                                                placeholder="0.00"
+                                                value={amount}
+                                                onChange={(e) => setAmount(e.target.value)}
+                                            />
                                         </div>
                                     </div>
                                 </div>
