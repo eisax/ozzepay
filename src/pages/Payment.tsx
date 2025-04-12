@@ -363,7 +363,9 @@ const Payment = () => {
                                                 <SelectValue placeholder="Select package" />
                                             </SelectTrigger>
 
-                                            <SelectContent></SelectContent>
+                                            <SelectContent>
+                                                <SelectItem value="basic">Basic (10Mbps)</SelectItem>
+                                            </SelectContent>
                                         </Select>
                                     </div>
                                 </div>
