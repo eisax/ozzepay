@@ -19,6 +19,7 @@ import Internet from "./pages/Internet";
 import Electricity from "./pages/Electricity";
 import Request from "./pages/Request";
 import Profile from "./pages/Profile";
+import Payment from "./pages/Payment";
 
 const queryClient = new QueryClient();
 
