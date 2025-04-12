@@ -49,7 +49,7 @@ const Analytics = () => {
         { name: "OneMoney", value: 85.50, color: "#F97316" },
         { name: "Omari", value: 120.30, color: "#06B6D4" },
         { name: "Zimswitch", value: 200.00, color: "#EF4444" },
-      ];
+    ];
 
     return (
         <div className="space-y-6"></div>
