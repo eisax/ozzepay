@@ -318,6 +318,10 @@ const Payment = () => {
                                         </div>
                                     </div>
                                 </div>
+
+                                <Button type="submit" className="w-full" disabled={isLoading}>
+                                    {isLoading ? "Processing..." : "Purchase Airtime/Bundle"}
+                                </Button>
                             </form>
                         </TabsContent>
                     </Tabs>
