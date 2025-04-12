@@ -268,7 +268,9 @@ const Analytics = () => {
                 </Card>
 
                 <Card>
-                    <CardHeader></CardHeader>
+                    <CardHeader>
+                        <CardTitle>Wallet Distribution</CardTitle>
+                    </CardHeader>
                 </Card>
             </div>
         </div>
