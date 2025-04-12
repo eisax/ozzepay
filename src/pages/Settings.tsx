@@ -22,6 +22,9 @@ import {
 import { Button } from "@/components/ui/button";
 
 const Settings = () => {
+    const { toast } = useToast();
+
+    
     return (
         <div className="space-y-6">
             <h1 className="text-2xl font-bold">Settings</h1>
