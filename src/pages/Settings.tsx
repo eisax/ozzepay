@@ -83,7 +83,9 @@ const Settings = () => {
                     </Card>
 
                     <Card>
-                        <CardHeader></CardHeader>
+                        <CardHeader>
+                            <CardTitle>Account Preferences</CardTitle>
+                        </CardHeader>
                     </Card>
                 </TabsContent>
             </Tabs>
