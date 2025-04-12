@@ -21,6 +21,8 @@ const Settings = () => {
                         <User size={16} className="mr-2" />
                         Account
                     </TabsTrigger>
+
+                    <TabsTrigger value="security"></TabsTrigger>
                 </TabsList>
             </Tabs>
         </div>
