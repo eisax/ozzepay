@@ -347,6 +347,8 @@ const Payment = () => {
                                     <span>Other</span>
                                 </Button>
                             </div>
+
+                            
                         </TabsContent>
                     </Tabs>
                 </CardContent>
