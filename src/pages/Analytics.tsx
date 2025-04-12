@@ -283,7 +283,7 @@ const Analytics = () => {
                             <TabsContent value="chart">
                                 <div className="h-64">
                                     <ResponsiveContainer width="100%" height="100%">
-                                    <PieChart>
+                                        <PieChart></PieChart>
                                     </ResponsiveContainer>
                                 </div>
                             </TabsContent>
