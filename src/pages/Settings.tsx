@@ -26,6 +26,8 @@ const Settings = () => {
                         <Shield size={16} className="mr-2" />
                         Security
                     </TabsTrigger>
+
+                    <TabsTrigger value="notifications"></TabsTrigger>
                 </TabsList>
             </Tabs>
         </div>
