@@ -32,7 +32,9 @@ const Settings = () => {
                         Notifications
                     </TabsTrigger>
 
-                    <TabsTrigger value="payment"></TabsTrigger>
+                    <TabsTrigger value="payment">
+                        <CreditCard size={16} className="mr-2" />
+                    </TabsTrigger>
                 </TabsList>
             </Tabs>
         </div>
