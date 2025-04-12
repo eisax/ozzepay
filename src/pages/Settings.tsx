@@ -110,6 +110,7 @@ const Settings = () => {
                                     <div className="font-medium">Dark Mode</div>
                                     <div className="text-sm text-muted-foreground">Toggle dark mode on/off</div>
                                 </div>
+                                <Switch />
                             </div>
                         </CardContent>
                     </Card>
