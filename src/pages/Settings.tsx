@@ -275,6 +275,14 @@ const Settings = () => {
                                             )}
                                             At least 8 characters long
                                         </li>
+                                        <li className="text-xs flex items-center">
+                                            {hasUppercase ? (
+                                                <Check size={14} className="text-green-500 mr-1" />
+                                            ) : (
+                                                <X size={14} className="text-red-500 mr-1" />
+                                            )}
+                                            At least one uppercase letter
+                                        </li>
                                     </ul>
                                 </div>
                             </form>
