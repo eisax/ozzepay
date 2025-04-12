@@ -273,7 +273,9 @@ const Profile = () => {
                                     <div className="space-y-4">
                                         <h3 className="font-medium">Two-Factor Authentication</h3>
 
-                                        <div className="flex items-center justify-between p-4 border rounded-lg"></div>
+                                        <div className="flex items-center justify-between p-4 border rounded-lg">
+                                        <div className="flex items-center gap-3"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </TabsContent>
