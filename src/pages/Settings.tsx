@@ -445,16 +445,16 @@ const Settings = () => {
                         </CardHeader>
 
                         <CardContent className="space-y-4">
-                        <div className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white font-bold">E</div>
-                  <div>
-                    <div className="font-medium">Ecocash</div>
-                    <div className="text-sm text-muted-foreground">+263 77 123 4567</div>
-                  </div>
-                </div>
-                <Button variant="outline" size="sm">Manage</Button>
-              </div>
+                            <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-3">
+                                    <div className="w-10 h-10 rounded-full bg-green-500 flex items-center justify-center text-white font-bold">E</div>
+                                    <div>
+                                        <div className="font-medium">Ecocash</div>
+                                        <div className="text-sm text-muted-foreground">+263 77 123 4567</div>
+                                    </div>
+                                </div>
+                                <Button variant="outline" size="sm">Manage</Button>
+                            </div>
 
                             <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-3">
