@@ -417,6 +417,8 @@ const Settings = () => {
                                 </div>
                                 <Switch defaultChecked />
                             </div>
+
+                            <div className="flex items-center justify-between"></div>
                         </CardContent>
                     </Card>
                 </TabsContent>
