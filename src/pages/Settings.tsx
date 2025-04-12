@@ -100,6 +100,7 @@ const Settings = () => {
                             <div className="flex items-center justify-between">
                                 <div>
                                     <div className="font-medium">Language</div>
+                                    <div className="text-sm text-muted-foreground">Change the display language</div>
                                 </div>
                             </div>
                         </CardContent>
