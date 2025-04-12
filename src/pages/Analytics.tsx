@@ -272,6 +272,8 @@ const Analytics = () => {
                         <CardTitle>Wallet Distribution</CardTitle>
                         <CardDescription>How your money is distributed across wallets</CardDescription>
                     </CardHeader>
+
+                    <CardContent></CardContent>
                 </Card>
             </div>
         </div>
