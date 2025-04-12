@@ -416,7 +416,12 @@ const Profile = () => {
                                                 <p className="text-sm font-medium mt-1">Omari</p>
                                             </div>
 
-                                            
+                                            <div className="rounded-lg border p-3 text-center hover:border-wallet-zim/70 cursor-pointer transition-colors">
+                                                <div className="w-10 h-10 rounded-full bg-wallet-zim mx-auto flex items-center justify-center text-white">
+                                                    Z
+                                                </div>
+                                                <p className="text-sm font-medium mt-1">Zimswitch</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
