@@ -244,6 +244,7 @@ const Payment = () => {
 
                                 <Button variant="outline" className="h-20 flex flex-col items-center justify-center gap-2">
                                     <Globe className="h-6 w-6 text-purple-500" />
+                                    <span>International</span>
                                 </Button>
                             </div>
                         </TabsContent>
