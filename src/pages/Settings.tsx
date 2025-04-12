@@ -493,7 +493,9 @@ const Settings = () => {
                             <CardDescription>Set your daily and monthly transaction limits</CardDescription>
                         </CardHeader>
 
-                        <CardContent className="space-y-4"></CardContent>
+                        <CardContent className="space-y-4">
+                            <div className="space-y-2"></div>
+                        </CardContent>
                     </Card>
                 </TabsContent>
             </Tabs>
