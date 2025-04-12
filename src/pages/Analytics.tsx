@@ -18,7 +18,7 @@ import {
     PieChart,
     Pie,
     Cell,
-  } from "recharts";
+} from "recharts";
 import {
     Card,
     CardContent,
