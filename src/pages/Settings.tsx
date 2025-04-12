@@ -490,6 +490,7 @@ const Settings = () => {
                     <Card>
                         <CardHeader>
                             <CardTitle>Transaction Limits</CardTitle>
+                            <CardDescription>Set your daily and monthly transaction limits</CardDescription>
                         </CardHeader>
                     </Card>
                 </TabsContent>
