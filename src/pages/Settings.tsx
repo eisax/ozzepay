@@ -394,6 +394,8 @@ const Settings = () => {
                             </div>
                         </CardContent>
                     </Card>
+
+                    <Card></Card>
                 </TabsContent>
             </Tabs>
         </div>
