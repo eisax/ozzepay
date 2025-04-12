@@ -27,7 +27,9 @@ const Settings = () => {
                         Security
                     </TabsTrigger>
 
-                    <TabsTrigger value="notifications"></TabsTrigger>
+                    <TabsTrigger value="notifications">
+                        <Bell size={16} className="mr-2" />
+                    </TabsTrigger>
                 </TabsList>
             </Tabs>
         </div>
