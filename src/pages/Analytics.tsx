@@ -55,6 +55,19 @@ const Analytics = () => {
         return `$${value.toFixed(2)}`;
     };
 
+    const getSpendingData = () => {
+        switch (period) {
+            case "week":
+                return weeklySpending;
+            case "month":
+                return monthlySpending;
+            case "year":
+                return yearlySpending;
+            default:
+                return monthlySpending;
+        }
+    };
+
     return (
         <div className="space-y-6"></div>
     );
