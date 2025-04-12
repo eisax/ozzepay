@@ -357,6 +357,8 @@ const Payment = () => {
 
                                     <div className="space-y-2">
                                         <Label htmlFor="package">Package</Label>
+
+                                        <Select></Select>
                                     </div>
                                 </div>
                             </form>
