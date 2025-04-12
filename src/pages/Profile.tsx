@@ -306,6 +306,10 @@ const Profile = () => {
                                                 <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
                                                     <CreditCard className="text-primary" />
                                                 </div>
+                                                <div>
+                                                    <p className="font-medium">Require PIN for all transactions</p>
+                                                    <p className="text-sm text-muted-foreground">Additional security for payments and transfers</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
