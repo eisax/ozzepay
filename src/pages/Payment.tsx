@@ -255,7 +255,9 @@ const Payment = () => {
                                         <Input id="phone" placeholder="Enter phone number" />
                                     </div>
 
-                                    <div className="space-y-2"></div>
+                                    <div className="space-y-2">
+                                        <Label htmlFor="airtime-type">Airtime Type</Label>
+                                    </div>
                                 </div>
                             </form>
                         </TabsContent>
