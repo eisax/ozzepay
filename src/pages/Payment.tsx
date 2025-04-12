@@ -257,6 +257,17 @@ const Payment = () => {
 
                                     <div className="space-y-2">
                                         <Label htmlFor="airtime-type">Airtime Type</Label>
+
+                                        <Select>
+                                            <SelectTrigger id="airtime-type">
+                                                <SelectValue placeholder="Select type" />
+                                            </SelectTrigger>
+                                            <SelectContent>
+                                                <SelectItem value="airtime">Airtime</SelectItem>
+                                                <SelectItem value="data">Data Bundle</SelectItem>
+                                                <SelectItem value="voice">Voice Bundle</SelectItem>
+                                            </SelectContent>
+                                        </Select>
                                     </div>
                                 </div>
                             </form>
