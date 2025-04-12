@@ -17,6 +17,8 @@ const Payment = () => {
         { id: "omari", name: "Omari", balance: 120.30 },
         { id: "zim", name: "Zimswitch", balance: 200.00 },
       ];
+
+      const handlePayment = (e: React.FormEvent) => {}
 }
 
 export default Payment;
