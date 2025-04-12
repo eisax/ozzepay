@@ -501,6 +501,8 @@ const Settings = () => {
                                     <Input id="dailyLimit" type="number" className="pl-7" defaultValue="1000" />
                                 </div>
                             </div>
+
+                            <div className="space-y-2"></div>
                         </CardContent>
                     </Card>
                 </TabsContent>
