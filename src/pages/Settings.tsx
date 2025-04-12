@@ -438,7 +438,9 @@ const Settings = () => {
                 </TabsContent>
 
                 <TabsContent value="payment" className="mt-6 space-y-6">
-                    <Card></Card>
+                    <Card>
+                        <CardHeader></CardHeader>
+                    </Card>
                 </TabsContent>
             </Tabs>
         </div>
