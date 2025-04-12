@@ -410,7 +410,12 @@ const Settings = () => {
                                 <Switch defaultChecked />
                             </div>
 
-                            <div className="flex items-center justify-between"></div>
+                            <div className="flex items-center justify-between">
+                            <div>
+                  <div className="font-medium">Deposit Notifications</div>
+                  <div className="text-sm text-muted-foreground">Get notified when you receive money</div>
+                </div>
+                            </div>
                         </CardContent>
                     </Card>
                 </TabsContent>
