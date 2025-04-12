@@ -366,6 +366,8 @@ const Profile = () => {
                                     </div>
                                 </div>
                             </TabsContent>
+
+                            <TabsContent value="preferences"></TabsContent>
                         </Tabs>
                     </CardContent>
                 </Card>
