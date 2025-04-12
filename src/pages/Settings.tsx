@@ -104,6 +104,8 @@ const Settings = () => {
                                 </div>
                                 <Button variant="outline">English</Button>
                             </div>
+
+                            <div className="flex items-center justify-between"></div>
                         </CardContent>
                     </Card>
                 </TabsContent>
