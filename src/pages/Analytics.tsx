@@ -304,6 +304,19 @@ const Analytics = () => {
                                     </ResponsiveContainer>
                                 </div>
                             </TabsContent>
+                            <TabsContent value="list">
+                                <div className="space-y-2">
+                                    {walletData.sort((a, b) => b.value - a.value).map((wallet) => (
+                                        <div key={wallet.name} className="flex items-center justify-between">
+                                            <div className="flex items-center gap-2">
+                                                <div className="w-3 h-3 rounded-full" style={{ backgroundColor: wallet.color }}></div>
+                                                <span>{wallet.name}</span>
+                                            </div>
+                                            <span className="font-medium">{formatCurrency(wallet.value)}</span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </TabsContent>
                         </Tabs>
                     </CardContent>
                 </Card>
